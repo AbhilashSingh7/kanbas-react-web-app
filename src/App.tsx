@@ -1,0 +1,18 @@
+// src/App.tsx
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./LandingPage";
+import Lab1 from "./Labs/Lab1";
+import KambazApp from "./Kambaz/KambazApp";
+
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/lab1" element={<Lab1 />} />
+        <Route path="/kambaz/*" element={<KambazApp />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
