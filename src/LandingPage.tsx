@@ -31,7 +31,7 @@ export default function LandingPage() {
         <ul>
           <li>
             <a
-              href="https://github.com/AbhilashSingh7/kambaz-react-web-app"
+              href="https://github.com/AbhilashSingh7/kanbas-react-web-app"
               target="_blank"
               rel="noopener noreferrer"
             >
