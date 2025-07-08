@@ -1,5 +1,5 @@
 // src/Kambaz/KambazApp.tsx
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, Link } from "react-router-dom";
 import Signin from "./Signin";
 import Signup from "./Signup";
 import Profile from "./Profile";
@@ -17,9 +17,20 @@ import Quizzes from "./Quizzes";
 
 // Placeholder components
 const Calendar = () => <h2>Calendar Placeholder</h2>;
-const Labs = () => <h2>Labs Placeholder</h2>;
 const Home = () => <h2>Course Home Placeholder</h2>;
 const Inbox = () => <h2>Inbox Placeholder</h2>;
+
+const Labs = () => (
+  <div>
+    <h2>Labs</h2>
+    <ul>
+      <li><Link to="/lab1">Lab 1</Link></li>
+    </ul>
+  </div>
+);
+
+const Lab1 = () => <h3>Lab 1 content goes here</h3>;
+const Lab2 = () => <h3>Lab 2 content goes here</h3>;
 
 export default function KambazApp() {
   return (
@@ -44,6 +55,8 @@ export default function KambazApp() {
           <Route path="quizzes" element={<Quizzes />} />
           <Route path="calendar" element={<Calendar />} />
           <Route path="labs" element={<Labs />} />
+          <Route path="labs/lab1" element={<Lab1 />} />
+          <Route path="labs/lab2" element={<Lab2 />} />
           <Route path="home" element={<Home />} />
           <Route path="inbox" element={<Inbox />} />
         </Routes>

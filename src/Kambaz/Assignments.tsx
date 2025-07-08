@@ -14,10 +14,10 @@ export default function Assignments() {
       <h4>Assignments</h4>
       <ul>
         <li>
-          <Link to="/kambaz/courses/assignments/1">A1: HTML</Link>
+          <Link to="/kambaz/courses/assignments/1">A1</Link>
         </li>
         <li>
-          <Link to="/kambaz/courses/assignments/2">A2: CSS</Link>
+          <Link to="/kambaz/courses/assignments/2">A2</Link>
         </li>
       </ul>
 

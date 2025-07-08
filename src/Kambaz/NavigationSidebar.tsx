@@ -5,6 +5,7 @@ export default function NavigationSidebar() {
   return (
     <div className="sidebar">
       <ul>
+      <li><Link to="/">← Back to Landing Page</Link></li>
         <li><Link to="/kambaz/account">Account</Link></li>
         <li><Link to="/kambaz/dashboard">Dashboard</Link></li>
         <li><Link to="/kambaz/courses">Courses</Link></li>
