@@ -10,9 +10,11 @@ export default function LandingPage() {
         <h3>Lab Assignments</h3>
         <ul>
           <li>
-            <Link to="/lab1">Lab 1 – HTML Elements Showcase</Link>
+            <Link to="/lab1">Lab 1 </Link>
           </li>
-          {/* Add more labs here when available */}
+          <li>
+            <Link to="/lab2">Lab 2 </Link>
+          </li>
         </ul>
       </section>
 

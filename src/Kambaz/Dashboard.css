@@ -1,5 +1,46 @@
 /* Dashboard.css */
-.card {
-    margin-bottom: 1rem;
-  }
-  
+.dashboard-page {
+  display: flex;
+  background-color: white;
+  color: #b00020; /* Red */
+  min-height: 100vh;
+}
+
+.dashboard-content {
+  padding: 2rem;
+  margin-left: 300px; /* to leave space for sidebar */
+  width: 100%;
+}
+
+.dashboard-header {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #b00020;
+}
+
+.dashboard-icon {
+  font-size: 2rem;
+  color: #b00020;
+}
+
+.published-title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #b00020;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.course-card {
+  background-color: #fff0f0;
+  border: 1px solid #b00020;
+  padding: 1rem;
+  border-radius: 8px;
+}

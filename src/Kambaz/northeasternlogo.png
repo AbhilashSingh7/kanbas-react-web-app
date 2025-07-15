@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Brand Governance">
+	<meta name="author" content="Northeastern University, http://www.northeastern.edu" />
+	<meta name="copyright" content="2025">
+	<meta name="language" content="english" />
+	<meta name="zipcode" content="02115" />
+	<meta name="city" content="Boston"/>
+	<meta name="state" content="MA"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="//www.google-analytics.com" rel="dns-prefetch">
+	<!--  -->
+	<!-- Our project just needs Font Awesome Light + Brands -->
+	<script src="https://kit.fontawesome.com/4051479adf.js" crossorigin="anonymous"></script>
+	
+	
+	
+			<link rel="apple-touch-icon" sizes="57x57"  href="https://brand.northeastern.edu/global/assets/favicon/apple-touch-57x57.png?v=2" />
+			<link rel="apple-touch-icon" sizes="60x60"  href="https://brand.northeastern.edu/global/assets/favicon/apple-touch-60x60.png?v=2" />
+			<link rel="apple-touch-icon" sizes="72x72"  href="https://brand.northeastern.edu/global/assets/favicon/apple-touch-72x72.png?v=2" />
+			<link rel="apple-touch-icon" sizes="76x76"  href="https://brand.northeastern.edu/global/assets/favicon/apple-touch-76x76.png?v=2" />
+			<link rel="apple-touch-icon" sizes="114x114"  href="https://brand.northeastern.edu/global/assets/favicon/apple-touch-114x114.png?v=2" />
+			<link rel="apple-touch-icon" sizes="120x120"  href="https://brand.northeastern.edu/global/assets/favicon/apple-touch-120x120.png?v=2" />
+			<link rel="apple-touch-icon" sizes="144x144"  href="https://brand.northeastern.edu/global/assets/favicon/apple-touch-144x144.png?v=2" />
+			<link rel="apple-touch-icon" sizes="152x152"  href="https://brand.northeastern.edu/global/assets/favicon/apple-touch-152x152.png?v=2" />
+			<link rel="icon" sizes="144x144" type="image/png" href="https://brand.northeastern.edu/global/assets/favicon/android-chrome-144x144.png?v=2" />
+			<link rel="icon" sizes="32x32" type="image/png" href="https://brand.northeastern.edu/global/assets/favicon/favicon-32x32.png?v=2" />
+			<link rel="icon" sizes="16x16" type="image/png" href="https://brand.northeastern.edu/global/assets/favicon/favicon-16x16.png?v=2" />
+			<link rel="manifest" href="https://brand.northeastern.edu/global/assets/favicon/manifest.json" />
+			<meta name="msapplication-TileImage" content="https://brand.northeastern.edu/global/assets/favicon/mstile-144x144.png?v=2" />
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	  <script async>
+  if (!window.BC) window.BC = {};
+  window.BC.emailSignIconPath = 'https://brand.northeastern.edu/wp-content/themes/nu-start-child/img/';
+  </script>
+  
+	<!-- This site is optimized with the Yoast SEO plugin v21.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>University Wordmarks - Brand Center</title>
+	<link rel="canonical" href="https://brand.northeastern.edu/visual-identity/university-wordmarks/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="University Wordmarks - Brand Center" />
+	<meta property="og:url" content="https://brand.northeastern.edu/visual-identity/university-wordmarks/" />
+	<meta property="og:site_name" content="Brand Center" />
+	<meta property="article:modified_time" content="2025-01-24T22:03:40+00:00" />
+	<meta property="og:image" content="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-5-black.svg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="6 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://brand.northeastern.edu/visual-identity/university-wordmarks/","url":"https://brand.northeastern.edu/visual-identity/university-wordmarks/","name":"University Wordmarks - Brand Center","isPartOf":{"@id":"https://brand.northeastern.edu/#website"},"primaryImageOfPage":{"@id":"https://brand.northeastern.edu/visual-identity/university-wordmarks/#primaryimage"},"image":{"@id":"https://brand.northeastern.edu/visual-identity/university-wordmarks/#primaryimage"},"thumbnailUrl":"https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-5-black.svg","datePublished":"2022-05-25T16:16:25+00:00","dateModified":"2025-01-24T22:03:40+00:00","breadcrumb":{"@id":"https://brand.northeastern.edu/visual-identity/university-wordmarks/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://brand.northeastern.edu/visual-identity/university-wordmarks/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://brand.northeastern.edu/visual-identity/university-wordmarks/#primaryimage","url":"https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-5-black.svg","contentUrl":"https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-5-black.svg"},{"@type":"BreadcrumbList","@id":"https://brand.northeastern.edu/visual-identity/university-wordmarks/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://brand.northeastern.edu/"},{"@type":"ListItem","position":2,"name":"Visual Identity","item":"https://brand.northeastern.edu/visual-identity/"},{"@type":"ListItem","position":3,"name":"University Wordmarks"}]},{"@type":"WebSite","@id":"https://brand.northeastern.edu/#website","url":"https://brand.northeastern.edu/","name":"Brand Center","description":"Brand Governance","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://brand.northeastern.edu/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='stylesheet' id='wp-block-library-css' href='https://brand.northeastern.edu/wp-includes/css/dist/block-library/style.min.css' media='all' />
+<style id='wp-block-library-inline-css'>
+p.is-style-large { font-size: var(--wp--preset--font-size--24-32);line-height: var(--wp--custom--line-height--rfs-32); }
+</style>
+<style id='nu-blocks-accordion-style-inline-css'>
+.visuallyhidden{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}@-webkit-keyframes text-in{0%{opacity:0;transform:translateY(2rem)}to{opacity:1}}@keyframes text-in{0%{opacity:0;transform:translateY(2rem)}to{opacity:1}}@-webkit-keyframes fade-in-up{0%{opacity:0;transform:translateY(2rem)}to{opacity:1;transform:translate(0)}}@keyframes fade-in-up{0%{opacity:0;transform:translateY(2rem)}to{opacity:1;transform:translate(0)}}@-webkit-keyframes image-in{0%{opacity:0}50%{opacity:1}to{transform:scale(1.15)}}@keyframes image-in{0%{opacity:0}50%{opacity:1}to{transform:scale(1.15)}}@-webkit-keyframes image-out{0%{opacity:0;transform:scale(1.15)}50%{opacity:1}to{transform:scale(1)}}@keyframes image-out{0%{opacity:0;transform:scale(1.15)}50%{opacity:1}to{transform:scale(1)}}@-webkit-keyframes border-in{0%{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}}@keyframes border-in{0%{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}}@-webkit-keyframes border-out{0%{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}}@keyframes border-out{0%{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}}@-webkit-keyframes tall-hero-becomes-narrow{0%{height:400px}to{height:0}}@keyframes tall-hero-becomes-narrow{0%{height:400px}to{height:0}}@-webkit-keyframes content-after-hero-fades-in{0%{opacity:0}to{opacity:1}}@keyframes content-after-hero-fades-in{0%{opacity:0}to{opacity:1}}.wp-block-nu-blocks-accordion{margin:64px 0 auto}.wp-block-nu-blocks-accordion:first-of-type{margin:0 auto}.wp-block-nu-blocks-accordion .wp-block-nu-blocks-accordion-item:not([class*=is-style-icon]) .wp-block-nublocks-accordion-item__title:after,.wp-block-nu-blocks-accordion.is-style-icon-appears-before-title .wp-block-nublocks-accordion-item__title:after{content:"+";left:16px}.wp-block-nu-blocks-accordion .wp-block-nu-blocks-accordion-item:not([class*=is-style-icon]) details[open] .wp-block-nublocks-accordion-item__title:after,.wp-block-nu-blocks-accordion.is-style-icon-appears-before-title details[open] .wp-block-nublocks-accordion-item__title:after{content:""}.wp-block-nu-blocks-accordion.is-style-icon-appears-after-title .wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title:after{content:"";left:unset;right:16px}.wp-block-nu-blocks-accordion.is-style-icon-appears-after-title .wp-block-nu-blocks-accordion-item details[open] .wp-block-nublocks-accordion-item__title:after{content:""}
+.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__content,.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title,.wp-block-nu-blocks-accordion-item summary{transition:all .1s ease-in-out}.visuallyhidden{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}@-webkit-keyframes text-in{0%{opacity:0;transform:translateY(2rem)}to{opacity:1}}@keyframes text-in{0%{opacity:0;transform:translateY(2rem)}to{opacity:1}}@-webkit-keyframes fade-in-up{0%{opacity:0;transform:translateY(2rem)}to{opacity:1;transform:translate(0)}}@keyframes fade-in-up{0%{opacity:0;transform:translateY(2rem)}to{opacity:1;transform:translate(0)}}@-webkit-keyframes image-in{0%{opacity:0}50%{opacity:1}to{transform:scale(1.15)}}@keyframes image-in{0%{opacity:0}50%{opacity:1}to{transform:scale(1.15)}}@-webkit-keyframes image-out{0%{opacity:0;transform:scale(1.15)}50%{opacity:1}to{transform:scale(1)}}@keyframes image-out{0%{opacity:0;transform:scale(1.15)}50%{opacity:1}to{transform:scale(1)}}@-webkit-keyframes border-in{0%{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}}@keyframes border-in{0%{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}}@-webkit-keyframes border-out{0%{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}}@keyframes border-out{0%{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}}@-webkit-keyframes tall-hero-becomes-narrow{0%{height:400px}to{height:0}}@keyframes tall-hero-becomes-narrow{0%{height:400px}to{height:0}}@-webkit-keyframes content-after-hero-fades-in{0%{opacity:0}to{opacity:1}}@keyframes content-after-hero-fades-in{0%{opacity:0}to{opacity:1}}.wp-block-nu-blocks-accordion-item{margin:16px 0 0}.wp-block-nu-blocks-accordion-item summary::-webkit-details-marker,.wp-block-nu-blocks-accordion-item summary::marker{display:none}.wp-block-nu-blocks-accordion-item details summary::-webkit-details-marker{display:none}.wp-block-nu-blocks-accordion-item .dashicon.dashicons{display:none}.wp-block-nu-blocks-accordion-item:first-child{margin:0}.wp-block-nu-blocks-accordion-item{border-bottom:1px solid var(--wp--preset--color--neutral-3);margin:0}.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title{background-color:var(--wp--preset--color--neutral-1);cursor:pointer;font-size:18px;font-style:normal;font-weight:400;line-height:24px;padding:16px 64px;position:relative}.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title:after{content:"+";font:var(--fa-font-light);font-size:20px;position:absolute;top:50%;transform:translateY(-50%)}.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title:hover{background-color:var(--wp--preset--color--light)}.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__content{background-color:var(--wp--preset--color--white);padding:16px}@media(min-width:600px){.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__content{padding:48px 64px}}.wp-block-nu-blocks-accordion-item details[open] .wp-block-nublocks-accordion-item__title{background-color:var(--wp--preset--color--white)}.wp-block-nu-blocks-accordion-item details[open] .wp-block-nublocks-accordion-item__title:hover{background-color:var(--wp--preset--color--light)}
+
+</style>
+<style id='nu-blocks-accordion-item-style-inline-css'>
+.visuallyhidden{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}@-webkit-keyframes text-in{0%{opacity:0;transform:translateY(2rem)}to{opacity:1}}@keyframes text-in{0%{opacity:0;transform:translateY(2rem)}to{opacity:1}}@-webkit-keyframes fade-in-up{0%{opacity:0;transform:translateY(2rem)}to{opacity:1;transform:translate(0)}}@keyframes fade-in-up{0%{opacity:0;transform:translateY(2rem)}to{opacity:1;transform:translate(0)}}@-webkit-keyframes image-in{0%{opacity:0}50%{opacity:1}to{transform:scale(1.15)}}@keyframes image-in{0%{opacity:0}50%{opacity:1}to{transform:scale(1.15)}}@-webkit-keyframes image-out{0%{opacity:0;transform:scale(1.15)}50%{opacity:1}to{transform:scale(1)}}@keyframes image-out{0%{opacity:0;transform:scale(1.15)}50%{opacity:1}to{transform:scale(1)}}@-webkit-keyframes border-in{0%{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}}@keyframes border-in{0%{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}}@-webkit-keyframes border-out{0%{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}}@keyframes border-out{0%{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}}@-webkit-keyframes tall-hero-becomes-narrow{0%{height:400px}to{height:0}}@keyframes tall-hero-becomes-narrow{0%{height:400px}to{height:0}}@-webkit-keyframes content-after-hero-fades-in{0%{opacity:0}to{opacity:1}}@keyframes content-after-hero-fades-in{0%{opacity:0}to{opacity:1}}.wp-block-nu-blocks-accordion{margin:64px 0 auto}.wp-block-nu-blocks-accordion:first-of-type{margin:0 auto}.wp-block-nu-blocks-accordion .wp-block-nu-blocks-accordion-item:not([class*=is-style-icon]) .wp-block-nublocks-accordion-item__title:after,.wp-block-nu-blocks-accordion.is-style-icon-appears-before-title .wp-block-nublocks-accordion-item__title:after{content:"+";left:16px}.wp-block-nu-blocks-accordion .wp-block-nu-blocks-accordion-item:not([class*=is-style-icon]) details[open] .wp-block-nublocks-accordion-item__title:after,.wp-block-nu-blocks-accordion.is-style-icon-appears-before-title details[open] .wp-block-nublocks-accordion-item__title:after{content:""}.wp-block-nu-blocks-accordion.is-style-icon-appears-after-title .wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title:after{content:"";left:unset;right:16px}.wp-block-nu-blocks-accordion.is-style-icon-appears-after-title .wp-block-nu-blocks-accordion-item details[open] .wp-block-nublocks-accordion-item__title:after{content:""}
+.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__content,.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title,.wp-block-nu-blocks-accordion-item summary{transition:all .1s ease-in-out}.visuallyhidden{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}@-webkit-keyframes text-in{0%{opacity:0;transform:translateY(2rem)}to{opacity:1}}@keyframes text-in{0%{opacity:0;transform:translateY(2rem)}to{opacity:1}}@-webkit-keyframes fade-in-up{0%{opacity:0;transform:translateY(2rem)}to{opacity:1;transform:translate(0)}}@keyframes fade-in-up{0%{opacity:0;transform:translateY(2rem)}to{opacity:1;transform:translate(0)}}@-webkit-keyframes image-in{0%{opacity:0}50%{opacity:1}to{transform:scale(1.15)}}@keyframes image-in{0%{opacity:0}50%{opacity:1}to{transform:scale(1.15)}}@-webkit-keyframes image-out{0%{opacity:0;transform:scale(1.15)}50%{opacity:1}to{transform:scale(1)}}@keyframes image-out{0%{opacity:0;transform:scale(1.15)}50%{opacity:1}to{transform:scale(1)}}@-webkit-keyframes border-in{0%{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}}@keyframes border-in{0%{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}}@-webkit-keyframes border-out{0%{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}}@keyframes border-out{0%{box-shadow:inset 0 0 0 32px var(--wp--preset--color--black)}to{box-shadow:inset 0 0 0 0 var(--wp--preset--color--black)}}@-webkit-keyframes tall-hero-becomes-narrow{0%{height:400px}to{height:0}}@keyframes tall-hero-becomes-narrow{0%{height:400px}to{height:0}}@-webkit-keyframes content-after-hero-fades-in{0%{opacity:0}to{opacity:1}}@keyframes content-after-hero-fades-in{0%{opacity:0}to{opacity:1}}.wp-block-nu-blocks-accordion-item{margin:16px 0 0}.wp-block-nu-blocks-accordion-item summary::-webkit-details-marker,.wp-block-nu-blocks-accordion-item summary::marker{display:none}.wp-block-nu-blocks-accordion-item details summary::-webkit-details-marker{display:none}.wp-block-nu-blocks-accordion-item .dashicon.dashicons{display:none}.wp-block-nu-blocks-accordion-item:first-child{margin:0}.wp-block-nu-blocks-accordion-item{border-bottom:1px solid var(--wp--preset--color--neutral-3);margin:0}.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title{background-color:var(--wp--preset--color--neutral-1);cursor:pointer;font-size:18px;font-style:normal;font-weight:400;line-height:24px;padding:16px 64px;position:relative}.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title:after{content:"+";font:var(--fa-font-light);font-size:20px;position:absolute;top:50%;transform:translateY(-50%)}.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__title:hover{background-color:var(--wp--preset--color--light)}.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__content{background-color:var(--wp--preset--color--white);padding:16px}@media(min-width:600px){.wp-block-nu-blocks-accordion-item .wp-block-nublocks-accordion-item__content{padding:48px 64px}}.wp-block-nu-blocks-accordion-item details[open] .wp-block-nublocks-accordion-item__title{background-color:var(--wp--preset--color--white)}.wp-block-nu-blocks-accordion-item details[open] .wp-block-nublocks-accordion-item__title:hover{background-color:var(--wp--preset--color--light)}
+
+</style>
+<style id='mamaduka-bookmark-card-style-inline-css'>
+.wp-block-mamaduka-bookmark-card{background:#fff;border:1px solid #e2e8f0;border-radius:8px;box-shadow:0 1px 2px 0 rgba(0,0,0,.05);font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5;margin:0;overflow:hidden}.bookmark-card{color:currentColor;display:flex;flex-direction:column;position:relative;text-decoration:none!important}.bookmark-card:hover{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity));text-decoration:none!important}.bookmark-card .bookmark-card__image img{display:block;height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.bookmark-card__content{padding:16px}.bookmark-card__title{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity));font-size:18px;font-weight:600;line-height:1.3;margin-bottom:4px}.bookmark-card__description{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity));font-size:16px;margin-bottom:8px}.bookmark_card__meta{display:flex;font-size:14px;line-height:16px}.bookmark_card__meta-icon{height:16px;margin-right:8px;width:16px}.bookmark_card__meta-publisher{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}@media(min-width:600px){.is-style-horizontal .bookmark-card{flex-direction:row-reverse}.is-style-horizontal .bookmark-card__image{flex:0 0 160px}.is-style-horizontal .bookmark-card__content{display:flex;flex:3 1 0;flex-direction:column;overflow:hidden}.is-style-horizontal .bookmark-card__title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.is-style-horizontal .bookmark-card__description{-webkit-box-orient:vertical;-webkit-line-clamp:2;display:-webkit-box;overflow:hidden}.is-style-horizontal .bookmark_card__meta{margin-top:auto}.is-style-horizontal.has-media-on-the-left .bookmark-card{flex-direction:row}}
+
+</style>
+<link rel='stylesheet' id='gutenberg-card-block-style-css' href='https://brand.northeastern.edu/wp-content/plugins/card-block/css/blocks.style.build.css' media='all' />
+<link rel='stylesheet' id='csb-content-slider-block-style-css' href='https://brand.northeastern.edu/wp-content/plugins/content-slider-block/dist/style.css' media='all' />
+<link rel='stylesheet' id='wp-components-css' href='https://brand.northeastern.edu/wp-includes/css/dist/components/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://brand.northeastern.edu/wp-includes/css/dist/preferences/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://brand.northeastern.edu/wp-includes/css/dist/block-editor/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css' href='https://brand.northeastern.edu/wp-includes/css/dist/reusable-blocks/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-patterns-css' href='https://brand.northeastern.edu/wp-includes/css/dist/patterns/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-editor-css' href='https://brand.northeastern.edu/wp-includes/css/dist/editor/style.min.css' media='all' />
+<link rel='stylesheet' id='sticky_block-css-css' href='https://brand.northeastern.edu/wp-content/plugins/sticky-block/dist/blocks.style.build.css' media='all' />
+<link rel='stylesheet' id='ultimate_blocks-cgb-style-css-css' href='https://brand.northeastern.edu/wp-content/plugins/ultimate-blocks/dist/blocks.style.build.css' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: rgba(0,0,0,1);--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: rgba(255,255,255,1);--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--transparent: transparent;--wp--preset--color--nu-red: rgba(200,16,46,1);--wp--preset--color--nu-red-brand: rgba(166,25,46,1);--wp--preset--color--dark: rgba(45,41,38,1);--wp--preset--color--light: rgba(250,250,250,1);--wp--preset--color--primary: rgba(43,116,150,1);--wp--preset--color--secondary: rgba(2,89,68,1);--wp--preset--color--neutral-1: rgba(227,227,227,1);--wp--preset--color--neutral-2: rgba(196,196,196,1);--wp--preset--color--neutral-3: rgba(158,158,158,1);--wp--preset--color--neutral-4: rgba(120,120,120,1);--wp--preset--color--neutral-5: rgba(84,84,84,1);--wp--preset--color--neutral-6: rgba(64,64,64,1);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--11-16: 11px;--wp--preset--font-size--12-16: 12px;--wp--preset--font-size--13-18: 13px;--wp--preset--font-size--14-20: 14px;--wp--preset--font-size--15-24: 15px;--wp--preset--font-size--16-24: 16px;--wp--preset--font-size--18-28: 18px;--wp--preset--font-size--20-28: 20px;--wp--preset--font-size--21-31: 21px;--wp--preset--font-size--22-31: 22px;--wp--preset--font-size--24-32: 24px;--wp--preset--font-size--26-32: 26px;--wp--preset--font-size--30-36: 30px;--wp--preset--font-size--36-40: 36px;--wp--preset--font-size--40-44: 40px;--wp--preset--font-size--48-48: 48px;--wp--preset--font-size--60-60: 60px;--wp--preset--font-size--72-72: 72px;--wp--preset--font-size--96-96: 96px;--wp--preset--font-size--128-128: 128px;--wp--preset--font-family--lato: Lato, sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);--wp--custom--content-size: 1620px;--wp--custom--wide-size: 1920px;--wp--custom--font-primary: Lato, sans-serif;--wp--custom--line-height--rfs-128: 128px;--wp--custom--line-height--rfs-96: 96px;--wp--custom--line-height--rfs-72: 72px;--wp--custom--line-height--rfs-60: 60px;--wp--custom--line-height--rfs-48: 48px;--wp--custom--line-height--rfs-40: 40px;--wp--custom--line-height--rfs-36: 36px;--wp--custom--line-height--rfs-32: 32px;--wp--custom--line-height--rfs-28: 28px;--wp--custom--line-height--rfs-24: 24px;--wp--custom--line-height--body: 1.375;--wp--custom--line-height--heading: 1.375;--wp--custom--line-height--page-title: 1.5;--wp--custom--spacing--unit: 16px;--wp--custom--spacing--horizontal: 32px;--wp--custom--spacing--vertical: 32px;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--font-weight--light: 300;--wp--custom--font-weight--normal: 400;--wp--custom--elems--links--color--default: currentColor;--wp--custom--elems--links--color--hover: currentColor;--wp--custom--elems--teasers--base--background: rgba(250,250,250,1);--wp--custom--elems--footer--background--light: rgba(244,244,244,1);--wp--custom--elems--footer--background--dark: rgba(31,31,31,1);}:root { --wp--style--global--content-size: 1620px;--wp--style--global--wide-size: 1920px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 32px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 32px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 32px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 32px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 32px;}:root :where(.is-layout-grid){gap: 32px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){font-weight: var(--wp--custom--font-weight--normal);text-decoration: underline;}h1{color: var(--wp--preset--color--black);font-family: Lato;font-size: var(--wp--preset--font-size--48-48);font-weight: 400;line-height: 48px;}h2{color: var(--wp--preset--color--black);font-family: Lato;font-size: var(--wp--preset--font-size--36-40);font-weight: 400;line-height: 40px;}h3{color: var(--wp--preset--color--black);font-family: Lato;font-size: var(--wp--preset--font-size--30-36);font-weight: 400;line-height: 36px;}h4{color: var(--wp--preset--color--black);font-family: Lato;font-size: var(--wp--preset--font-size--20-28);font-weight: 700;line-height: 28px;}h5{color: var(--wp--preset--color--black);font-family: Lato;font-size: var(--wp--preset--font-size--16-24);font-weight: 700;line-height: 24px;}h6{color: var(--wp--preset--color--black);font-family: Lato;font-size: var(--wp--preset--font-size--16-24);font-weight: 700;line-height: 24px;text-transform: unset;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-transparent-color{color: var(--wp--preset--color--transparent) !important;}.has-nu-red-color{color: var(--wp--preset--color--nu-red) !important;}.has-nu-red-brand-color{color: var(--wp--preset--color--nu-red-brand) !important;}.has-dark-color{color: var(--wp--preset--color--dark) !important;}.has-light-color{color: var(--wp--preset--color--light) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-neutral-1-color{color: var(--wp--preset--color--neutral-1) !important;}.has-neutral-2-color{color: var(--wp--preset--color--neutral-2) !important;}.has-neutral-3-color{color: var(--wp--preset--color--neutral-3) !important;}.has-neutral-4-color{color: var(--wp--preset--color--neutral-4) !important;}.has-neutral-5-color{color: var(--wp--preset--color--neutral-5) !important;}.has-neutral-6-color{color: var(--wp--preset--color--neutral-6) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-transparent-background-color{background-color: var(--wp--preset--color--transparent) !important;}.has-nu-red-background-color{background-color: var(--wp--preset--color--nu-red) !important;}.has-nu-red-brand-background-color{background-color: var(--wp--preset--color--nu-red-brand) !important;}.has-dark-background-color{background-color: var(--wp--preset--color--dark) !important;}.has-light-background-color{background-color: var(--wp--preset--color--light) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-neutral-1-background-color{background-color: var(--wp--preset--color--neutral-1) !important;}.has-neutral-2-background-color{background-color: var(--wp--preset--color--neutral-2) !important;}.has-neutral-3-background-color{background-color: var(--wp--preset--color--neutral-3) !important;}.has-neutral-4-background-color{background-color: var(--wp--preset--color--neutral-4) !important;}.has-neutral-5-background-color{background-color: var(--wp--preset--color--neutral-5) !important;}.has-neutral-6-background-color{background-color: var(--wp--preset--color--neutral-6) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-transparent-border-color{border-color: var(--wp--preset--color--transparent) !important;}.has-nu-red-border-color{border-color: var(--wp--preset--color--nu-red) !important;}.has-nu-red-brand-border-color{border-color: var(--wp--preset--color--nu-red-brand) !important;}.has-dark-border-color{border-color: var(--wp--preset--color--dark) !important;}.has-light-border-color{border-color: var(--wp--preset--color--light) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-neutral-1-border-color{border-color: var(--wp--preset--color--neutral-1) !important;}.has-neutral-2-border-color{border-color: var(--wp--preset--color--neutral-2) !important;}.has-neutral-3-border-color{border-color: var(--wp--preset--color--neutral-3) !important;}.has-neutral-4-border-color{border-color: var(--wp--preset--color--neutral-4) !important;}.has-neutral-5-border-color{border-color: var(--wp--preset--color--neutral-5) !important;}.has-neutral-6-border-color{border-color: var(--wp--preset--color--neutral-6) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-11-16-font-size{font-size: var(--wp--preset--font-size--11-16) !important;}.has-12-16-font-size{font-size: var(--wp--preset--font-size--12-16) !important;}.has-13-18-font-size{font-size: var(--wp--preset--font-size--13-18) !important;}.has-14-20-font-size{font-size: var(--wp--preset--font-size--14-20) !important;}.has-15-24-font-size{font-size: var(--wp--preset--font-size--15-24) !important;}.has-16-24-font-size{font-size: var(--wp--preset--font-size--16-24) !important;}.has-18-28-font-size{font-size: var(--wp--preset--font-size--18-28) !important;}.has-20-28-font-size{font-size: var(--wp--preset--font-size--20-28) !important;}.has-21-31-font-size{font-size: var(--wp--preset--font-size--21-31) !important;}.has-22-31-font-size{font-size: var(--wp--preset--font-size--22-31) !important;}.has-24-32-font-size{font-size: var(--wp--preset--font-size--24-32) !important;}.has-26-32-font-size{font-size: var(--wp--preset--font-size--26-32) !important;}.has-30-36-font-size{font-size: var(--wp--preset--font-size--30-36) !important;}.has-36-40-font-size{font-size: var(--wp--preset--font-size--36-40) !important;}.has-40-44-font-size{font-size: var(--wp--preset--font-size--40-44) !important;}.has-48-48-font-size{font-size: var(--wp--preset--font-size--48-48) !important;}.has-60-60-font-size{font-size: var(--wp--preset--font-size--60-60) !important;}.has-72-72-font-size{font-size: var(--wp--preset--font-size--72-72) !important;}.has-96-96-font-size{font-size: var(--wp--preset--font-size--96-96) !important;}.has-128-128-font-size{font-size: var(--wp--preset--font-size--128-128) !important;}.has-lato-font-family{font-family: var(--wp--preset--font-family--lato) !important;}
+:root :where(.wp-block-button .wp-block-button__link){border-radius: 0;border-width: 1px;font-size: var(--wp--preset--font-size--14-20);line-height: 20px;padding-top: 14px;padding-right: 24px;padding-bottom: 14px;padding-left: 24px;}
+:root :where(.wp-block-pullquote){font-size: var(--wp--preset--font-size--30-36);font-weight: 300;line-height: var(--wp--custom--line-height--rfs-36);}
+:root :where(.wp-block-navigation-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-navigation-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-navigation-is-layout-flow) > *{margin-block-start: 1rem;margin-block-end: 0;}:root :where(.wp-block-navigation-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-navigation-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-navigation-is-layout-constrained) > *{margin-block-start: 1rem;margin-block-end: 0;}:root :where(.wp-block-navigation-is-layout-flex){gap: 1rem;}:root :where(.wp-block-navigation-is-layout-grid){gap: 1rem;}
+:root :where(.wp-block-group-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-group-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-group-is-layout-flow) > *{margin-block-start: 40px;margin-block-end: 0;}:root :where(.wp-block-group-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-group-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-group-is-layout-constrained) > *{margin-block-start: 40px;margin-block-end: 0;}:root :where(.wp-block-group-is-layout-flex){gap: 40px;}:root :where(.wp-block-group-is-layout-grid){gap: 40px;}
+:root :where(.wp-block-buttons-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flow) > *{margin-block-start: 16px;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > *{margin-block-start: 16px;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flex){gap: 16px;}:root :where(.wp-block-buttons-is-layout-grid){gap: 16px;}
+:root :where(.wp-block-list){font-size: var(--wp--preset--font-size--18-28);line-height: var(--wp--custom--line-height--rfs-28);}
+:root :where(p){font-size: var(--wp--preset--font-size--16-24);line-height: 24px;}
+:root :where(p a:where(:not(.wp-element-button))){font-weight: var(--wp--custom--font-weight--normal);}
+</style>
+<link rel='stylesheet' id='cookie-plugin-style-css' href='https://brand.northeastern.edu/wp-content/plugins/nu-cookie-consent-hotfix/css/cookie-styles.css' media='all' />
+<link rel='stylesheet' id='nu-site-fonts-css' href='https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/build/css/fonts.css' media='all' />
+<link rel='stylesheet' id='magnific-css' href='https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/vendor/css/magnific-popup.css' media='all' />
+<link rel='stylesheet' id='selectize-css' href='https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/vendor/css/selectize.bootstrap5.css' media='all' />
+<link rel='stylesheet' id='main-css' href='https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/build/css/main.css' media='all' />
+<link rel='stylesheet' id='pattern-styles-css' href='https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/build/css/pattern-styles/pattern-styles.css' media='all' />
+<link rel='stylesheet' id='child-theme-styles-css' href='https://brand.northeastern.edu/wp-content/themes/nu-start-child/source/style.css' media='all' />
+<link rel='stylesheet' id='aos-styles-css' href='https://unpkg.com/aos@2.3.1/dist/aos.css' media='all' />
+<script src="https://brand.northeastern.edu/wp-includes/js/dist/vendor/react.min.js" id="react-js"></script>
+<script src="https://brand.northeastern.edu/wp-includes/js/dist/vendor/react-dom.min.js" id="react-dom-js"></script>
+<script src="https://brand.northeastern.edu/wp-includes/js/dist/escape-html.min.js" id="wp-escape-html-js"></script>
+<script src="https://brand.northeastern.edu/wp-includes/js/dist/element.min.js" id="wp-element-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/vendor/js/jquery.min.js" id="jquery-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/plugins/content-slider-block/assets/js/swiper.min.js" id="swiperJS-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/plugins/content-slider-block/dist/script.js" id="csb-content-slider-block-script-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/build/js/main-min.js" id="main-js"></script>
+<script defer crossorigin="anonymous" src="https://kit.fontawesome.com/9fbe80054a.js" id="font-awesome-official-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/themes/nu-start-child/source/scripts.js" id="child-theme-scripts-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/themes/nu-start-child/assets/js/nav.js" id="nav-child-js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" id="aos-scripts-js"></script>
+<script src="https://unpkg.com/imask" id="imask-js"></script>
+<link rel="https://api.w.org/" href="https://brand.northeastern.edu/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://brand.northeastern.edu/wp-json/wp/v2/pages/2673" /><link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://brand.northeastern.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbrand.northeastern.edu%2Fvisual-identity%2Funiversity-wordmarks%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://brand.northeastern.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbrand.northeastern.edu%2Fvisual-identity%2Funiversity-wordmarks%2F&#038;format=xml" />
+
+            <link rel="stylesheet" href="https://global-packages.cdn.northeastern.edu/global-elements/dist/css/index.css">
+            <script src="https://global-packages.cdn.northeastern.edu/global-elements/dist/js/index.umd.js"></script>
+            <script src="https://global-packages.cdn.northeastern.edu/kernl-ui/dist/js/index.umd.js" defer></script>
+            
+<style>#ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-tab-title-wrap, #ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-tab-title-vertical-wrap{ background-color: inherit; border-color: lightgrey; color: inherit; } #ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-tab-title-wrap.active, #ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active,#ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-accordion-toggle.active{ background-color: #eeeeee; color: inherit; }#ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-accordion-toggle.active{ background-color: #eeeeee; }#ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-tabs-title{ justify-content: flex-start; } #ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-accordion-toggle{ background-color: transparent; color: inherit; } #ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-tab-title-wrap:nth-child(1){ text-align: left; } #ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-tab-title-wrap:nth-child(2){ text-align: left; } #ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4 .wp-block-ub-tabbed-content-tab-title-wrap:nth-child(3){ text-align: left; } </style>
+
+    <style id="wpforms-css-vars-root">
+				:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+				}
+			</style>
+		<script src="https://global-packages.cdn.northeastern.edu/global-elements/dist/js/index.umd.js" defer></script>
+    <link rel="stylesheet" href="https://global-packages.cdn.northeastern.edu/global-elements/dist/css/index.css">
+    <script src="https://global-packages.cdn.northeastern.edu/kernl-ui/dist/js/index.umd.js" defer></script>
+		<!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WGQLLJ');</script><!-- End Google Tag Manager --><!-- Hotjar Tracking Code for Brand Center -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3236579,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script></head>
+<body class="wp-singular page-template-default page page-id-2673 page-child parent-pageid-2634 wp-embed-responsive wp-theme-nu-start wp-child-theme-nu-start-child has-local-header has-nu-global-header-footer  sitesearch-enabled menu-open--button">
+<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGQLLJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+	<header class="header">
+		<div class="itsglobalheader--container"><div id="itsglobalheader" x-data="NUGlobalElements.header({wordmark:true, menu:true})" x-init="init()"></div></div>
+		<a id="skiptomaincontent" href="#main">Skip to content</a>
+		
+		<div class="container wide submenus-open-using-button">
+			
+			<a href="https://brand.northeastern.edu" title="Visit Brand Center" class="logo logo--image">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 15" xml:space="preserve"><path d="M11.86 10.3c0 2.32-1.6 4.06-5.86 4.06H0v-14h5.22c4.34 0 5.88 1.36 5.88 3.56 0 1.68-.96 2.5-2.46 2.88 2.24.44 3.22 1.62 3.22 3.5zM3.52 3.08v2.84h2.24c.96 0 1.74-.38 1.74-1.44 0-1.08-.78-1.4-2.06-1.4H3.52zm4.68 6.96c0-1.44-1.18-1.72-2.12-1.72H3.52v3.34h2.6c1.18 0 2.08-.46 2.08-1.62zM20.21 3.42v3.2c-.38-.02-.52-.02-.66-.02-1.62 0-2.9.68-2.9 3.6v4.16h-3.36V3.66h3.22v1.72c.74-1.48 1.76-2.02 2.88-2.02.28 0 .54.02.82.06zM30.57 6.74v5.24c0 .9.06 1.62.36 2.38h-3.26c-.18-.32-.3-.68-.38-1.06-.74.98-1.82 1.34-3.08 1.34-2.26 0-3.54-1.38-3.54-3.28 0-2.06 1.22-3.28 4.52-3.7l2.02-.24v-.48c0-.96-.26-1.3-1.34-1.3-1.02 0-1.42.36-1.46 1.24h-3.32c.08-2.32 1.84-3.52 4.84-3.52 3.34 0 4.64 1.24 4.64 3.38zm-4.6 2.86c-1.38.2-1.88.62-1.88 1.4 0 .7.42 1.12 1.22 1.12 1.06 0 1.9-.72 1.9-1.76v-.94l-1.24.18zM42.63 7.38v6.98h-3.36V8.34c0-1.46-.36-2.16-1.48-2.16-1.14 0-1.92.94-1.92 2.36v5.82h-3.36V3.66h3.22V5.1c.8-1.22 1.96-1.74 3.38-1.74 2.22 0 3.52 1.44 3.52 4.02zM55.01 14.36h-3.22v-1.12c-.78.96-1.9 1.4-3.1 1.4-2.82 0-4.66-2.34-4.66-5.64 0-3.44 2.14-5.64 4.8-5.64 1.24 0 2.16.4 2.82 1.1V.36h3.36v14zm-7.46-5.34c0 2 .8 3 2.18 3 1.32 0 2.14-.96 2.14-3 0-2.1-.88-3.06-2.14-3.06-1.4 0-2.18 1.04-2.18 3.06zM73.93 4.16l-3.4.86c-.58-1.42-1.42-2.12-2.92-2.12-2.04 0-3.3 1.58-3.3 4.42s1.18 4.5 3.36 4.5c1.7 0 2.62-.86 3.22-2.44l3.34 1c-1.12 2.86-3.68 4.34-6.68 4.34-3.54 0-6.88-2.14-6.88-7.38C60.67 2.2 64.01 0 67.59 0c2.68 0 5.16 1.1 6.34 4.16zM85.92 9.22v.6H78.6c.1 1.54 1 2.3 2.34 2.3 1.12 0 1.78-.56 2.26-1.32l2.64 1.26c-1.04 1.64-2.7 2.58-5.08 2.58-3.48 0-5.62-2.36-5.62-5.64 0-3.3 2-5.64 5.42-5.64 3.32 0 5.36 2.24 5.36 5.86zm-7.34-1.4h3.94c-.08-1.48-.82-2.1-1.98-2.1-1.04 0-1.86.6-1.96 2.1zM97.5 7.38v6.98h-3.36V8.34c0-1.46-.36-2.16-1.48-2.16-1.14 0-1.92.94-1.92 2.36v5.82h-3.36V3.66h3.22V5.1c.8-1.22 1.96-1.74 3.38-1.74 2.22 0 3.52 1.44 3.52 4.02zM103.23 3.92h2.5v2.36h-2.5v4.4c0 .88.26 1.28 1.2 1.28.54 0 .96-.08 1.46-.2v2.52c-.7.22-1.52.36-2.42.36-2.7 0-3.6-1.28-3.6-3.44V6.28h-1.44V3.92h1.44V1.16h3.36v2.76zM117.34 9.22v.6h-7.32c.1 1.54 1 2.3 2.34 2.3 1.12 0 1.78-.56 2.26-1.32l2.64 1.26c-1.04 1.64-2.7 2.58-5.08 2.58-3.48 0-5.62-2.36-5.62-5.64 0-3.3 2-5.64 5.42-5.64 3.32 0 5.36 2.24 5.36 5.86zM110 7.82h3.94c-.08-1.48-.82-2.1-1.98-2.1-1.04 0-1.86.6-1.96 2.1zM125.72 3.42v3.2c-.38-.02-.52-.02-.66-.02-1.62 0-2.9.68-2.9 3.6v4.16h-3.36V3.66h3.22v1.72c.74-1.48 1.76-2.02 2.88-2.02.28 0 .54.02.82.06z"></path></svg>
+			</a>
+		
+			<div class="navicons"><i class="fa-regular fa-bars"></i><i class="fa-regular fa-xmark"></i></div>
+			<div class="navlinks--container">
+				<nav class="navlinks"><ul id="menu-main-menu" class="menu"><li id="menu-item-2620" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2620"><a href="https://brand.northeastern.edu/brand-voice/"><span class="link-text">Brand Voice</span></a><button aria-label="expand the brand voice submenu" class="navlinks-showsubmenu"></button>
+<ul class="sub-menu">
+	<li id="menu-item-2621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2621"><a href="https://brand.northeastern.edu/brand-voice/voice-tone/"><span class="link-text">Voice &#038; Tone</span></a></li>
+	<li id="menu-item-2622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2622"><a href="https://brand.northeastern.edu/brand-voice/messaging/"><span class="link-text">Messaging</span></a><button aria-label="expand the messaging submenu" class="navlinks-showsubmenu"></button>
+	<ul class="sub-menu">
+		<li id="menu-item-2624" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2624"><a href="https://brand.northeastern.edu/brand-voice/messaging/experience/"><span class="link-text">Experience</span></a></li>
+		<li id="menu-item-2623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2623"><a href="https://brand.northeastern.edu/brand-voice/messaging/global-university-system/"><span class="link-text">Global University System</span></a></li>
+		<li id="menu-item-2635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2635"><a href="https://brand.northeastern.edu/brand-voice/messaging/boilerplate/"><span class="link-text">Boilerplate</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2636" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-2636"><a href="https://brand.northeastern.edu/visual-identity/"><span class="link-text">Visual Identity</span></a><button aria-label="expand the visual identity submenu" class="navlinks-showsubmenu"></button>
+<ul class="sub-menu">
+	<li id="menu-item-2707" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2673 current_page_item menu-item-2707"><a href="https://brand.northeastern.edu/visual-identity/university-wordmarks/" aria-current="page"><span class="link-text">Primary Logo</span></a></li>
+	<li id="menu-item-2706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2706"><a href="https://brand.northeastern.edu/visual-identity/monogram/"><span class="link-text">Monogram</span></a></li>
+	<li id="menu-item-2705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2705"><a href="https://brand.northeastern.edu/visual-identity/seal/"><span class="link-text">Seal and Seal Wordmark</span></a></li>
+	<li id="menu-item-3636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3636"><a href="https://brand.northeastern.edu/visual-identity/spirit-marks/"><span class="link-text">Spirit Marks</span></a></li>
+	<li id="menu-item-4425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4425"><a href="https://brand.northeastern.edu/visual-identity/athletics-marks/"><span class="link-text">Athletics Marks</span></a></li>
+	<li id="menu-item-2722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2722"><a href="https://brand.northeastern.edu/visual-identity/signature-lockups/"><span class="link-text">Unit Marks</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2746"><a href="https://brand.northeastern.edu/visual-design/"><span class="link-text">Visual Design</span></a><button aria-label="expand the visual design submenu" class="navlinks-showsubmenu"></button>
+<ul class="sub-menu">
+	<li id="menu-item-2749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2749"><a href="https://brand.northeastern.edu/visual-design/color/"><span class="link-text">Color</span></a></li>
+	<li id="menu-item-2748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2748"><a href="https://brand.northeastern.edu/visual-design/typography/"><span class="link-text">Typography</span></a></li>
+	<li id="menu-item-2747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2747"><a href="https://brand.northeastern.edu/visual-design/photography/"><span class="link-text">Photography</span></a></li>
+	<li id="menu-item-4209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4209"><a href="https://brand.northeastern.edu/videography/"><span class="link-text">Videography</span></a></li>
+	<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="https://brand.northeastern.edu/visual-design/merchandise/"><span class="link-text">Merchandise</span></a></li>
+	<li id="menu-item-2781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2781"><a href="https://brand.northeastern.edu/visual-design/stationery/"><span class="link-text">Stationery</span></a></li>
+	<li id="menu-item-4448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4448"><a href="https://brand.northeastern.edu/visual-design/athletics-visual-design/"><span class="link-text">Athletics Visual Design</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2783"><a href="https://brand.northeastern.edu/policies/"><span class="link-text">Policies</span></a></li>
+<li id="menu-item-3639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3639"><a href="https://brand.northeastern.edu/resources/"><span class="link-text">Resources</span></a><button aria-label="expand the resources submenu" class="navlinks-showsubmenu"></button>
+<ul class="sub-menu">
+	<li id="menu-item-2818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2818"><a href="https://brand.northeastern.edu/resources/key-terms-style/"><span class="link-text">Key Terms &#038; Style</span></a></li>
+	<li id="menu-item-2830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2830"><a href="https://brand.northeastern.edu/resources/writing-tips/"><span class="link-text">Basic Writing Tips</span></a></li>
+	<li id="menu-item-2829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2829"><a href="https://brand.northeastern.edu/resources/writing-for-channels/"><span class="link-text">Writing For Channels</span></a></li>
+	<li id="menu-item-4277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4277"><a href="https://brandassets.northeastern.edu/share/E51556F9-683A-4278-96EE3AE18477A9DD/"><span class="link-text">Northeastern x AI Toolkit</span></a></li>
+	<li id="menu-item-4291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4291"><a href="https://brand.northeastern.edu/resources/email-signature-generator/"><span class="link-text">Email Signature Generator</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2819"><a href="https://brand.northeastern.edu/brand-reviews/"><span class="link-text">Brand Reviews</span></a></li>
+</ul></nav>
+				<div class="nu__sitesearch" tabindex="0"><a href="javascript:void(0);" class="nu__sitesearch_toggle"></a>
+				<div class="nu__sitesearch-form--container">
+					<form role="search" method="get" action="https://brand.northeastern.edu" aria-label="site search form">
+						<button type="submit"><i class="fa-regular fa-magnifying-glass"></i></button>
+						<label for="s">site search input</label>
+						<input name="s" id="sitesearch-input" placeholder="Search". />
+						<button type="button" class="nu__sitesearch-close"><i class="fa-regular fa-xmark"></i></button>
+					</form>
+				</div>
+			</div>
+			</div>
+		</div>
+	</header>
+<main id="main">
+<div class="blocks--wrapper">
+<div class="wp-block-cover nu-hero is-style-as-hero"><span aria-hidden="true" class="wp-block-cover__background has-transparent-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
+<div class="wp-block-columns has-black-color has-text-color is-layout-flex wp-container-core-columns-is-layout-d2ca7aa4 wp-block-columns-is-layout-flex">
+<div class="wp-block-column has-black-color has-text-color is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%"><div id="breadcrumbs--block_b7b1e7f60ee7f600c35b62a09cad1085" class="nu__breadcrumbs">
+	<div>
+		<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Visual Identity." href="https://brand.northeastern.edu/visual-identity/" class="post post-page" ><span property="name">Visual Identity</span></a><meta property="position" content="1"></span><i class="fa-regular fa-chevron-right fa-xs"></i><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item">University Wordmarks</span><meta property="url" content="https://brand.northeastern.edu/visual-identity/university-wordmarks/"><meta property="position" content="2"></span></div>	</div>
+</div>
+
+
+<h1 class="wp-block-heading has-black-color has-text-color">Northeastern’s Wordmark logos are our preferred marks.</h1>
+
+
+
+<p>Our Wordmark logos allow for a variety of creative applications.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"></div>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-group container-w-80p color-switcher is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-buttons is-content-justification-right is-layout-flex wp-container-core-buttons-is-layout-d445cf74 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--1"><a class="wp-block-button__link wp-element-button" href="https://brandassets.northeastern.edu/web/b5c898a2a48cd6a0/primary-marks/" target="_blank" rel="noreferrer noopener">DOWNLOADS</a></div>
+</div>
+
+
+<div class="wp-block-ub-tabbed-content wp-block-ub-tabbed-content-holder color-switcher__tabs--tpl-grid wp-block-ub-tabbed-content-horizontal-holder-mobile wp-block-ub-tabbed-content-horizontal-holder-tablet" id="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4">
+                <div class="wp-block-ub-tabbed-content-tab-holder horizontal-tab-width-mobile horizontal-tab-width-tablet">
+                    <div role="tablist" class="wp-block-ub-tabbed-content-tabs-title wp-block-ub-tabbed-content-tabs-title-mobile-horizontal-tab wp-block-ub-tabbed-content-tabs-title-tablet-horizontal-tab"><div role="tab" id="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-tab-0" aria-controls="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-panel-0"
+            aria-selected="true" class = "wp-block-ub-tabbed-content-tab-title-wrap active" tabindex="-1">
+            <div class="wp-block-ub-tabbed-content-tab-title">#000000</div></div><div role="tab" id="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-tab-1" aria-controls="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-panel-1"
+            aria-selected="false" class = "wp-block-ub-tabbed-content-tab-title-wrap" tabindex="-1">
+            <div class="wp-block-ub-tabbed-content-tab-title">#fff</div></div><div role="tab" id="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-tab-2" aria-controls="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-panel-2"
+            aria-selected="false" class = "wp-block-ub-tabbed-content-tab-title-wrap" tabindex="-1">
+            <div class="wp-block-ub-tabbed-content-tab-title">#C8102E</div></div></div></div>
+                <div class="wp-block-ub-tabbed-content-tabs-content"><div role="tabpanel" class="wp-block-ub-tabbed-content-tab-content-wrap active"
+        id="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-panel-0" aria-labelledby="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-tab-0" tabindex="0">
+
+<div class="wp-block-columns ac-grid-col-2 is-layout-flex wp-container-core-columns-is-layout-1919c733 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group tab-section is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-5-black.svg" alt="" class="wp-image-4300" style="width:300px;height:94px"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">PRIMARY WORDMARK</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-42254b98 wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group tab-section is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-6-black.svg" alt="" class="wp-image-4320" style="width:300px;height:94px"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">SECONDARY LOGO</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns ac-grid-col-2 is-layout-flex wp-container-core-columns-is-layout-1919c733 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group tab-section is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-2-black-1.svg" alt="" class="wp-image-4303" style="width:300px;height:94px"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">HORIZONTAL WORDMARK</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-42254b98 wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group tab-section is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://nustbrand.wpengine.com/wp-content/uploads/2022/06/ac-grid-3-black.svg" alt="" class="wp-image-3181" style="width:300px;height:94px"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">STACKED WORDMARK</p>
+</div>
+</div>
+</div>
+
+</div><div role="tabpanel" class="wp-block-ub-tabbed-content-tab-content-wrap ub-hide"
+        id="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-panel-1" aria-labelledby="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-tab-1" tabindex="0">
+
+<div class="wp-block-columns ac-grid-col-2 is-layout-flex wp-container-core-columns-is-layout-1919c733 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group tab-section is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group has-dark-background-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-5-white.svg" alt="" class="wp-image-4304" style="width:300px"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">PRIMARY LOGO</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-42254b98 wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group tab-section is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group has-dark-background-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-6-white.svg" alt="" class="wp-image-4305" style="width:300px;height:94px"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">SECONDARY LOGO</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns ac-grid-col-2 is-layout-flex wp-container-core-columns-is-layout-1919c733 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group tab-section is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group has-dark-background-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-2-white.svg" alt="" class="wp-image-4306" style="width:300px;height:29px"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">HORIZONTAL WORDMARK</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-42254b98 wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group tab-section is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group has-dark-background-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-3-white.svg" alt="" class="wp-image-4307" style="width:300px;height:102px"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">STACKED WORDMARK</p>
+</div>
+</div>
+</div>
+
+</div><div role="tabpanel" class="wp-block-ub-tabbed-content-tab-content-wrap ub-hide"
+        id="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-panel-2" aria-labelledby="ub-tabbed-content-847294f7-fda0-43af-b69e-b0989fec11a4-tab-2" tabindex="0">
+
+<div class="wp-block-columns ac-grid-col-2 is-layout-flex wp-container-core-columns-is-layout-1919c733 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-group alignfull is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large"><img fetchpriority="high" decoding="async" width="629" height="242" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/Wordmark_Red1.svg" alt="" class="wp-image-4308"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">PRIMARY LOGO</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-42254b98 wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="629" height="242" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/Wordmark_Red2.svg" alt="" class="wp-image-4309"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">SECONDARY LOGO</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns ac-grid-col-2 is-layout-flex wp-container-core-columns-is-layout-1919c733 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="629" height="242" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/Wordmark_Red3.svg" alt="" class="wp-image-4310"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">HORIZONTAL WORDMARK</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-42254b98 wp-block-column-is-layout-flow" style="flex-basis:48.5%">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="629" height="242" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/Wordmark_Red4.svg" alt="" class="wp-image-4311"/></figure>
+</div>
+
+
+
+<p class="has-11-16-font-size">STACKED WORDMARK</p>
+</div>
+</div>
+</div>
+
+</div></div>
+            </div></div>
+
+
+
+<div class="wp-block-nu-blocks-accordion container-w-80p">
+<div id="primary-logo" class="wp-block-nu-blocks-accordion-item"><details><summary class="wp-block-nublocks-accordion-item__title">Primary logo</summary><div class="wp-block-nublocks-accordion-item__content content">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Primary logo</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-large"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-5-red.svg" alt="" class="wp-image-4312"/></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>Our preferred mark, this should be used as the first option in any setting.<br><br>This version is the most flexible and works in both small and large sizes.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Minimize size</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>All University Wordmarks can be sized down until the height of the “N” in “Northeastern” is 12 pixels high in digital environments or 1/8 of an inch in print environments.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Clear space</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img decoding="async" width="287" height="148" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/clearspace-primary.svg" alt="" class="wp-image-4313" style="object-fit:cover"/></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>The clear space below and above the mark should be equal to the height and width of the N.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Please don&#8217;t</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<ul class="wp-block-list">
+<li>Change the colors</li>
+
+
+
+<li>Add other elements</li>
+
+
+
+<li>Warp, stretch, skew or distort</li>
+
+
+
+<li>Add special effects, shadows or gradients</li>
+
+
+
+<li>Tilt or rotate</li>
+
+
+
+<li>Change the proportion composition, or orientation</li>
+
+
+
+<li>Reverse colors or add an outline</li>
+</ul>
+</div>
+</div>
+</div></details></div>
+
+
+
+<div id="secondary-logo" class="wp-block-nu-blocks-accordion-item"><details><summary class="wp-block-nublocks-accordion-item__title">Secondary logo</summary><div class="wp-block-nublocks-accordion-item__content content">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Secondary logo</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-large"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-6-red.svg" alt="" class="wp-image-4314"/></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>The N + Motto lockup is a graphic, bold variation of the standard lockup.<br><br>While useful for increased visual interest, this version works best in larger formats.<br><br><em>Please note: This version works best in print and must meet minimum size requirements in digital and print spaces to ensure the motto is legible.</em></p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Minimum size</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>All University Wordmarks can be sized down until the height of the “N” in “Northeastern” is 12 pixels high in digital environments or 1/8 of an inch in print environments.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Clear space</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img decoding="async" width="287" height="148" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/secondary-clearspace.png" alt="" class="wp-image-4315"/></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>The clear space below and above the mark should be equal to the height and width of the N.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Please don&#8217;t</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<ul class="wp-block-list">
+<li>Change the colors</li>
+
+
+
+<li>Add other elements</li>
+
+
+
+<li>Warp, stretch, skew or distort</li>
+
+
+
+<li>Add special effects, shadows or gradients</li>
+
+
+
+<li>Tilt or rotate</li>
+
+
+
+<li>Change the proportion composition, or orientation</li>
+
+
+
+<li>Reverse colors or add an outline</li>
+</ul>
+</div>
+</div>
+</div></details></div>
+
+
+
+<div id="wordmark" class="wp-block-nu-blocks-accordion-item"><details><summary class="wp-block-nublocks-accordion-item__title">Wordmark</summary><div class="wp-block-nublocks-accordion-item__content content">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Wordmark</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-large"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-2-black-2.svg" alt="" class="wp-image-4316"/></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/ac-grid-3-black.svg" alt="" class="wp-image-4317"/></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>Available in stacked or horizontal formatting, this mark is appropriate for any platform / space.<br><br>When used by itself, it can brand less-formal communications that don’t require the full weight of the seal.<br><br>Use it in experimental or adventurous ways, including turning the mark to run vertically.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Minimum size</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-constrained wp-block-column-is-layout-constrained"></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>All University Wordmarks can be sized down until the height of the “N” in “Northeastern” is 12 pixels high in digital environments or 1/8 of an inch in print environments.&nbsp;</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Clear space</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img decoding="async" width="560" height="260" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/clearspace_stacked.png" alt="" class="wp-image-4318" srcset="https://brand.northeastern.edu/wp-content/uploads/2025/01/clearspace_stacked.png 560w, https://brand.northeastern.edu/wp-content/uploads/2025/01/clearspace_stacked-300x139.png 300w" sizes="(max-width: 560px) 100vw, 560px" /></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>Clear space around the horizontal, stacked, and informal Wordmarks should equal the height and width of the N in Northeastern. No graphic elements or type should appear inside this zone.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h6 class="wp-block-heading has-22-31-font-size" style="font-style:normal;font-weight:300">Please don&#8217;t</h6>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<ul class="wp-block-list">
+<li>Change the colors</li>
+
+
+
+<li>Add other elements</li>
+
+
+
+<li>Warp, stretch, skew or distort</li>
+
+
+
+<li>Add special effects, shadows or gradients</li>
+
+
+
+<li>Tilt or rotate</li>
+
+
+
+<li>Change the proportion composition, or orientation</li>
+
+
+
+<li>Reverse colors or add an outline</li>
+</ul>
+</div>
+</div>
+</div></details></div>
+</div>
+
+
+
+<figure class="wp-block-image alignfull size-full full-width-img nu-zoom-up"><img decoding="async" width="1800" height="981" src="https://brand.northeastern.edu/wp-content/uploads/2025/01/wordmarks.jpg" alt="" class="wp-image-4319" srcset="https://brand.northeastern.edu/wp-content/uploads/2025/01/wordmarks.jpg 1800w, https://brand.northeastern.edu/wp-content/uploads/2025/01/wordmarks-300x164.jpg 300w, https://brand.northeastern.edu/wp-content/uploads/2025/01/wordmarks-1024x558.jpg 1024w, https://brand.northeastern.edu/wp-content/uploads/2025/01/wordmarks-768x419.jpg 768w, https://brand.northeastern.edu/wp-content/uploads/2025/01/wordmarks-1600x872.jpg 1600w, https://brand.northeastern.edu/wp-content/uploads/2025/01/wordmarks-1536x837.jpg 1536w" sizes="(max-width: 1800px) 100vw, 1800px" /></figure>
+
+
+
+<div class="wp-block-group alignfull is-the-prefooter-section has-white-color has-black-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p class="has-text-align-center"><strong>By working together, our brand is stronger</strong>. The university has a strict Brand Governance policy for review and approval of all media plans and creative assets before they go into market.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-a89b3969 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button btn btn--prefooter is-style-outline is-style-outline--2"><a class="wp-block-button__link" href="https://brand.northeastern.edu/brand-reviews/">Submit a Brand Review</a></div>
+</div>
+</div>
+</div>
+</div></main>
+<footer class="site-footer disabled"></footer>
+				<div id="nu__cookiewarning">
+					<p class="has-smaller-font-size">We use cookies to improve your experience on our sites. By continuing to use our sites, you agree to our <a href="https://www.northeastern.edu/privacy-information" title="Privacy information" aria-label="Privacy information" target="_blank" rel="noopener noreferrer">Privacy Statement</a>.</p>
+					<button class="button cookies-accept">Accept and Continue</button>
+				</div>
+			<div x-data="NUGlobalElements.footer()" x-init="init()"></div><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/nu-start-child\/*","\/wp-content\/themes\/nu-start\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<style>#trustarc-global-element footer {padding-top: .6rem !important;} #trustarc-global-element footer a {color: #ccc; text-decoration: none;}</style><div id="trustarc-global-element" x-data="NUGlobalElements.trustarc()" x-init="init()"></div>  <button id="scroll-to-top">
+    <svg class="svg-inline--fa fa-angle-up icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-up" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+  </button>
+  <style id='block-style-variation-styles-inline-css'>
+:root :where(.wp-block-button.is-style-outline--1 .wp-block-button__link){background: transparent none;border-color: currentColor;border-width: 2px;border-style: solid;color: currentColor;padding-top: 0.667em;padding-right: 1.33em;padding-bottom: 0.667em;padding-left: 1.33em;}
+:root :where(.wp-block-button.is-style-outline--2 .wp-block-button__link){background: transparent none;border-color: currentColor;border-width: 2px;border-style: solid;color: currentColor;padding-top: 0.667em;padding-right: 1.33em;padding-bottom: 0.667em;padding-left: 1.33em;}
+</style>
+<style id='core-block-supports-inline-css'>
+.wp-container-core-columns-is-layout-d2ca7aa4{flex-wrap:nowrap;gap:0px;}.wp-container-core-buttons-is-layout-d445cf74{justify-content:flex-end;}.wp-container-core-column-is-layout-42254b98 > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-column-is-layout-42254b98 > * + *{margin-block-start:3%;margin-block-end:0;}.wp-container-core-columns-is-layout-1919c733{flex-wrap:nowrap;gap:3%;}.wp-container-core-columns-is-layout-28f84493{flex-wrap:nowrap;}.wp-container-core-buttons-is-layout-a89b3969{justify-content:center;}
+</style>
+<script src="https://brand.northeastern.edu/wp-content/plugins/sticky-block/dist/sticky-block.min.js" id="sticky_block-js-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/plugins/ultimate-blocks/src/blocks/tabbed-content/front.build.js" id="ultimate_blocks-tabbed-content-front-script-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/plugins/ultimate-blocks/src/blocks/scrollby-polyfill.js" id="ultimate_blocks-scrollby-polyfill-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/vendor/js/selectize.min.js" id="selectize-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/vendor/js/jquery.magnific-popup.min.js" id="magnific-js"></script>
+<script id="block-posts-grid-js-extra">
+var postsgrid_ajax_object = {"phpversion":"8.2.28","ajaxurl":"https:\/\/brand.northeastern.edu\/wp-admin\/admin-ajax.php","ajax_nonce":"68070a4552"};
+</script>
+<script src="https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/build/js/blocks/posts-grid-min.js" id="block-posts-grid-js"></script>
+<script src="https://brand.northeastern.edu/wp-content/themes/nu-start/__precomp/build/js/blocks/nav-block-min.js" id="block-navigation-js"></script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* src/Kambaz/Assignments.css */
+
+.assignments-container {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-left: 220px;
+  }
+  
+  .assignments-title {
+    color: red;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .assignments-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .assignment-link {
+    color: white;
+    text-decoration: underline;
+  }

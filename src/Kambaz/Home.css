@@ -1,0 +1,45 @@
+/* src/Kambaz/Home.css */
+
+.home-container {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-left: 220px;
+  }
+  
+  .home-title {
+    color: red;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .home-subtext {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-links {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .home-links li {
+    margin-bottom: 1rem;
+  }
+  
+  .home-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .home-link-icon {
+    margin-right: 0.5rem;
+    color: red;
+  }

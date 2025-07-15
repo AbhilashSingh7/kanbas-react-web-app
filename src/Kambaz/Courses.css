@@ -1,0 +1,43 @@
+/* src/Kambaz/Courses.css */
+
+.courses-page {
+    display: flex;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    margin-left: 220px;
+    padding: 2rem;
+  }
+  
+  .courses-content {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .course-home-title {
+    color: red;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .course-home-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .course-nav {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  
+  .course-nav-item {
+    padding: 10px 15px;
+    color: red;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+  }
+  
+  .course-nav-item:hover {
+    background-color: #222;
+  }

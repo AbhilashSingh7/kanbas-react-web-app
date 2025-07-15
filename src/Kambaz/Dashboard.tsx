@@ -1,3 +1,5 @@
+// src/Kambaz/Dashboard.tsx
+import { FaTachometerAlt } from "react-icons/fa";
 import NavigationSidebar from "./NavigationSidebar";
 import "./Dashboard.css";
 
@@ -9,11 +11,14 @@ export default function Dashboard() {
   ];
 
   return (
-    <div className="dashboard">
+    <div className="dashboard-page">
       <NavigationSidebar />
       <div className="dashboard-content">
-        <h1>Dashboard</h1>
-        <h2>Published Courses</h2>
+        <h1 className="dashboard-header">
+          <FaTachometerAlt className="dashboard-icon" />
+          Dashboard
+        </h1>
+        <h2 className="published-title">Published Courses</h2>
         <div className="course-grid">
           {courses.map(course => (
             <div className="course-card" key={course.id}>

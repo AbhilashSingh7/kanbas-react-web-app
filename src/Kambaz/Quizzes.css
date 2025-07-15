@@ -1,0 +1,20 @@
+/* src/Kambaz/Quizzes.css */
+
+.quizzes-container {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-left: 220px;
+  }
+  
+  .quizzes-title {
+    color: red;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .quizzes-icon {
+    margin-right: 0.5rem;
+  }

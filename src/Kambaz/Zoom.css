@@ -1,0 +1,28 @@
+/* src/Kambaz/Zoom.css */
+
+.zoom-container {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-left: 220px;
+  }
+  
+  .zoom-title {
+    color: red;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .zoom-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .zoom-link {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
+  }

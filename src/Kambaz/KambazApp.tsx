@@ -1,12 +1,17 @@
 // src/Kambaz/KambazApp.tsx
-import { Routes, Route, Navigate, Link } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Northeastern from "./Northeastern";
+import Account from "./Account";
 import Signin from "./Signin";
 import Signup from "./Signup";
 import Profile from "./Profile";
 import Dashboard from "./Dashboard";
 import Courses from "./Courses";
+import CalendarPage from "./Calendar";
 import NavigationSidebar from "./NavigationSidebar";
 import CourseHome from "./CourseHome";
+import Inbox from "./Inbox";
+import Labs from "./Labs";
 import Modules from "./Modules";
 import Assignments from "./Assignments";
 import AssignmentEditor from "./AssignmentEditor";
@@ -14,35 +19,34 @@ import Grades from "./Grades";
 import Zoom from "./Zoom";
 import Piazza from "./Piazza";
 import Quizzes from "./Quizzes";
+import Lab1 from "../Labs/Lab1";
+import Lab2 from "../Labs/Lab2";
+import Home from "./Home";
 
 // Placeholder components
-const Calendar = () => <h2>Calendar Placeholder</h2>;
-const Home = () => <h2>Course Home Placeholder</h2>;
-const Inbox = () => <h2>Inbox Placeholder</h2>;
-
-const Labs = () => (
-  <div>
-    <h2>Labs</h2>
-    <ul>
-      <li><Link to="/lab1">Lab 1</Link></li>
-    </ul>
-  </div>
-);
-
-const Lab1 = () => <h3>Lab 1 content goes here</h3>;
-const Lab2 = () => <h3>Lab 2 content goes here</h3>;
 
 export default function KambazApp() {
   return (
-    <div>
+    <div style={{ display: "flex", height: "100vh" }}>
       <NavigationSidebar />
-      <div style={{ marginLeft: "400px", padding: "1rem" }}>
+      <div style={{ flex: 1, padding: "1rem" }}>
         <Routes>
+          <Route path="northeastern" element={<Northeastern />} />
           <Route path="/" element={<Navigate to="/kambaz/signin" />} />
-          <Route path="account" element={<Navigate to="/kambaz/signin" />} />
+
+          {/* Updated Account routing */}
+          <Route path="account" element={<Account />}>
+            <Route index element={<Signin />} />
+            <Route path="signin" element={<Signin />} />
+            <Route path="signup" element={<Signup />} />
+            <Route path="profile" element={<Profile />} />
+          </Route>
+
+          {/* Legacy flat routes (still work if linked directly) */}
           <Route path="signin" element={<Signin />} />
           <Route path="signup" element={<Signup />} />
           <Route path="profile" element={<Profile />} />
+
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="courses" element={<Courses />} />
           <Route path="coursehome" element={<CourseHome />} />
@@ -53,10 +57,10 @@ export default function KambazApp() {
           <Route path="zoom" element={<Zoom />} />
           <Route path="piazza" element={<Piazza />} />
           <Route path="quizzes" element={<Quizzes />} />
-          <Route path="calendar" element={<Calendar />} />
+          <Route path="calendar" element={<CalendarPage />} />
           <Route path="labs" element={<Labs />} />
-          <Route path="labs/lab1" element={<Lab1 />} />
-          <Route path="labs/lab2" element={<Lab2 />} />
+          <Route path="lab1" element={<Lab1 />} />
+          <Route path="lab2" element={<Lab2 />} />
           <Route path="home" element={<Home />} />
           <Route path="inbox" element={<Inbox />} />
         </Routes>

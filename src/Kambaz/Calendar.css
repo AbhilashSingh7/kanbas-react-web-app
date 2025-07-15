@@ -1,0 +1,56 @@
+/* src/Kambaz/Calendar.css */
+
+.calendar-page {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-left: 220px;
+  }
+  
+  .calendar-title {
+    color: red;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  .calendar-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .calendar-container {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  /* Override react-calendar styles for better contrast */
+  .react-calendar__navigation button {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .react-calendar__month-view__weekdays {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .react-calendar__tile {
+    color: black;
+  }
+  
+  .react-calendar__tile--now {
+    background: #f2f2f2;
+    border-radius: 6px;
+  }
+  
+  .react-calendar__tile--active {
+    background: #c00;
+    color: white;
+    border-radius: 6px;
+  }

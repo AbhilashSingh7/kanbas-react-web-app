@@ -1,0 +1,42 @@
+/* src/Kambaz/Account.css */
+
+.account-page {
+    display: flex;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .account-main {
+    flex: 1;
+    padding: 2rem;
+    margin-left: 300px;
+  }
+  
+  .account-title {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .account-icon {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .account-container {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .account-nav {
+    width: 200px;
+  }
+  
+  .account-content {
+    flex: 1;
+    color: white;
+  }

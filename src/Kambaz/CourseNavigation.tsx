@@ -1,15 +1,16 @@
-
+// src/Kambaz/CourseNavigation.tsx
 import { NavLink } from "react-router-dom";
+import "./Courses.css";
 
 export default function CourseNavigation() {
   return (
-    <div className="list-group" style={{ width: "200px" }}>
-      <NavLink to="home" className="list-group-item">Home</NavLink>
-      <NavLink to="modules" className="list-group-item">Modules</NavLink>
-      <NavLink to="#" className="list-group-item">Piazza</NavLink>
-      <NavLink to="#" className="list-group-item">Zoom</NavLink>
-      <NavLink to="assignments" className="list-group-item">Assignments</NavLink>
-      <NavLink to="#" className="list-group-item">Grades</NavLink>
+    <div className="course-nav">
+      <NavLink to="home" className="course-nav-item">🏠 Home</NavLink>
+      <NavLink to="modules" className="course-nav-item">📦 Modules</NavLink>
+      <NavLink to="#" className="course-nav-item">💬 Piazza</NavLink>
+      <NavLink to="#" className="course-nav-item">🎥 Zoom</NavLink>
+      <NavLink to="assignments" className="course-nav-item">📝 Assignments</NavLink>
+      <NavLink to="#" className="course-nav-item">📊 Grades</NavLink>
     </div>
   );
 }

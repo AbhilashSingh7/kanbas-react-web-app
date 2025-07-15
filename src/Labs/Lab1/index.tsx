@@ -55,7 +55,7 @@ import AnchorTag from "./AnchorTag";
 
 const Lab1 = () => {
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
+    <div style={{ padding: "20px", marginLeft: 220, fontFamily: "Arial, sans-serif" }}>
       <h1>CS5610 - Lab 1 Showcase</h1>
 
       {/* Text Elements */}
