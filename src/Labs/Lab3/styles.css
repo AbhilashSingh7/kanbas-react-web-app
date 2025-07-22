@@ -1,0 +1,23 @@
+.lab3-container {
+    padding: 2rem;
+    background-color: #111;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .lab3-container h1 {
+    color: red;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .lab3-container h2 {
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .lab3-container hr {
+    margin: 2rem 0;
+    border: 1px solid #333;
+  }

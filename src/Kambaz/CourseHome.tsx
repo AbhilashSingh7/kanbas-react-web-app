@@ -3,7 +3,7 @@ import TopButtons from "./TopButtons";
 import ModulesList from "./ModulesList";
 import CourseStatus from "./CourseStatus";
 import { FaHome } from "react-icons/fa";
-import "./Courses.css";
+import "./CourseHome.css";
 
 export default function CourseHome() {
   return (
@@ -12,15 +12,12 @@ export default function CourseHome() {
         <FaHome className="course-home-icon" />
         Course Home
       </h2>
-      <div className="d-flex justify-content-between">
-        {/* Left: Buttons + Modules */}
-        <div style={{ width: "70%" }}>
+      <div className="course-home-layout">
+        <div className="course-home-left">
           <TopButtons />
           <ModulesList />
         </div>
-
-        {/* Right: Course Status box */}
-        <div style={{ width: "28%" }}>
+        <div className="course-home-right">
           <CourseStatus />
         </div>
       </div>

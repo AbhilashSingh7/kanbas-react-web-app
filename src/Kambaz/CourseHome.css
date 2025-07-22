@@ -1,0 +1,35 @@
+/* src/Kambaz/CourseHome.css */
+
+.course-home {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-left: 220px;
+  }
+  
+  .course-home-title {
+    color: red;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .course-home-icon {
+    color: red;
+    margin-right: 0.5rem;
+  }
+  
+  .course-home-layout {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .course-home-left {
+    width: 70%;
+  }
+  
+  .course-home-right {
+    width: 28%;
+  }

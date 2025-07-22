@@ -15,6 +15,9 @@ export default function LandingPage() {
           <li>
             <Link to="/lab2">Lab 2 </Link>
           </li>
+          <li>
+            <Link to="/lab3">Lab 3 </Link>
+          </li>
         </ul>
       </section>
 

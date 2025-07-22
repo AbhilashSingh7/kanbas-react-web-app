@@ -21,6 +21,7 @@ import Piazza from "./Piazza";
 import Quizzes from "./Quizzes";
 import Lab1 from "../Labs/Lab1";
 import Lab2 from "../Labs/Lab2";
+import Lab3 from "../Labs/Lab3";
 import Home from "./Home";
 
 // Placeholder components
@@ -61,6 +62,7 @@ export default function KambazApp() {
           <Route path="labs" element={<Labs />} />
           <Route path="lab1" element={<Lab1 />} />
           <Route path="lab2" element={<Lab2 />} />
+          <Route path="lab3" element={<Lab3 />} />
           <Route path="home" element={<Home />} />
           <Route path="inbox" element={<Inbox />} />
         </Routes>

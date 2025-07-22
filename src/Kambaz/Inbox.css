@@ -1,0 +1,22 @@
+/* src/Kambaz/Inbox.css */
+
+.inbox-page {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-left: 220px;
+  }
+  
+  .inbox-header {
+    color: red;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .inbox-icon {
+    margin-right: 0.5rem;
+    color: red;
+  }

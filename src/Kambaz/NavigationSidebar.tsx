@@ -1,25 +1,39 @@
-import { Link } from "react-router-dom";
+// src/Kambaz/NavigationSidebar.tsx
+import { Link, useLocation } from "react-router-dom";
 import "./NavigationSidebar.css";
 
+const navItems = [
+  { label: "← Back to Landing Page", path: "/" },
+  { label: "Northeastern", path: "/kambaz/northeastern" },
+  { label: "Account", path: "/kambaz/account" },
+  { label: "Dashboard", path: "/kambaz/dashboard" },
+  { label: "Courses", path: "/kambaz/courses" },
+  { label: "Calendar", path: "/kambaz/calendar" },
+  { label: "Inbox", path: "/kambaz/inbox" },
+  { label: "Labs", path: "/kambaz/labs" },
+  { label: "Home", path: "/kambaz/home" },
+  { label: "Modules", path: "/kambaz/modules" },
+  { label: "Piazza", path: "/kambaz/piazza" },
+  { label: "Zoom", path: "/kambaz/zoom" },
+  { label: "Quizzes", path: "/kambaz/quizzes" },
+  { label: "Assignments", path: "/kambaz/assignments" },
+  { label: "Grades", path: "/kambaz/grades" },
+];
+
 export default function NavigationSidebar() {
+  const location = useLocation();
+
   return (
     <div className="sidebar">
       <ul>
-      <li><Link to="/">← Back to Landing Page</Link></li>
-        <li><Link to="/kambaz/northeastern">Northeastern</Link></li>
-        <li><Link to="/kambaz/account">Account</Link></li>
-        <li><Link to="/kambaz/dashboard">Dashboard</Link></li>
-        <li><Link to="/kambaz/courses">Courses</Link></li>
-        <li><Link to="/kambaz/calendar">Calendar</Link></li>
-        <li><Link to="/kambaz/inbox">Inbox</Link></li>
-        <li><Link to="/kambaz/labs">Labs</Link></li>
-        <li><Link to="/kambaz/home">Home</Link></li>
-        <li><Link to="/kambaz/modules">Modules</Link></li>
-        <li><Link to="/kambaz/piazza">Piazza</Link></li>
-        <li><Link to="/kambaz/zoom">Zoom</Link></li>
-        <li><Link to="/kambaz/quizzes">Quizzes</Link></li>
-        <li><Link to="/kambaz/assignments">Assignments</Link></li>
-        <li><Link to="/kambaz/grades">Grades</Link></li>
+        {navItems.map((item) => (
+          <li
+            key={item.path}
+            className={location.pathname === item.path ? "active" : ""}
+          >
+            <Link to={item.path}>{item.label}</Link>
+          </li>
+        ))}
       </ul>
     </div>
   );
