@@ -33,6 +33,11 @@ export default function Labs() {
             Lab 3
           </Link>
         </li>
+        <li>
+          <Link to="/kambaz/lab4" style={{ color: "white", textDecoration: "underline" }}>
+            Lab 4
+          </Link>
+        </li>
       </ul>
     </div>
   );

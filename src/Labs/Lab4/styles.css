@@ -1,0 +1,52 @@
+/* Labs/Lab4/styles.css */
+
+body {
+    background-color: #232424;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f2f4f7;
+    padding-bottom: 60px;
+  }
+  
+  /* Lab 4 container centered and shifted right */
+  .lab4-container {
+    max-width: 960px;
+    margin: auto;
+    padding: 40px 20px;
+    margin-left: 220px; /* Shift right to match Lab 2 */
+  }
+  
+  /* Main heading */
+  .lab4-container h1 {
+    color: #ff4c4c;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Section headings */
+  .lab4-container h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Section horizontal rules */
+  .lab4-container hr {
+    margin: 2rem 0;
+    border: 1px solid #333;
+  }
+  
+  /* Buttons */
+  .lab4-container button {
+    margin-right: 0.5rem;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 4px 9px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .lab4-container button:hover {
+    background-color: #0b5ed7;
+  }
