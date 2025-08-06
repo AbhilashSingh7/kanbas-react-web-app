@@ -1,0 +1,12 @@
+/* src/Kambaz/AssignmentEditor.css */
+.assignment-editor-page {
+    background-color: black;
+    min-height: 100vh;
+    padding-left: 220px;
+    color: white;
+  }
+  
+  .assignment-editor-form {
+    max-width: 100%;
+  }
+  

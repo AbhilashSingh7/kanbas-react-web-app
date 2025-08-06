@@ -1,0 +1,85 @@
+/* src/Kambaz/AssignmentItem.css */
+
+.assignment-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #444;
+    color: white;
+    background-color: black;
+    transition: background-color 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .assignment-item:hover {
+    background-color: #111;
+  }
+  
+  .assignment-icon {
+    color: red;
+    font-size: 1rem;
+  }
+  
+  .assignment-title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 2px;
+    color: white;
+  }
+  
+  .assignment-subtext {
+    font-size: 0.85rem;
+    color: #ccc;
+  }
+  
+  .assignment-content {
+    display: flex;
+    gap: 0.75rem;
+    flex-grow: 1;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .assignment-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 1rem;
+    margin-top: 2px;
+    white-space: nowrap;
+  }
+  
+  .action-icon {
+    font-size: 1rem;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .action-icon:hover {
+    color: white;
+  }
+  
+  .action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+  }
+  
+  .action-link {
+    background: none;
+    border: none;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: none;
+  }
+  
+  .action-link:hover {
+    text-decoration: underline;
+  }
+  

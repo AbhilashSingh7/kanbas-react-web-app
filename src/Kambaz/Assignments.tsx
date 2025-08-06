@@ -1,115 +1,170 @@
 // src/Kambaz/Assignments.tsx
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { FaClipboardList } from "react-icons/fa";
+import AssignmentItem from "./AssignmentItem";
 import "./Assignments.css";
 
 interface Assignment {
   id: number;
   name: string;
+  dueDate: string;
+  points: number;
+  group: string;
 }
 
 export default function Assignments() {
   const [assignments, setAssignments] = useState<Assignment[]>([
-    { id: 1, name: "A1" },
-    { id: 2, name: "A2" },
+    {
+      id: 1,
+      name: "A1",
+      dueDate: "2025-08-15",
+      points: 100,
+      group: "Assignments",
+    },
+    {
+      id: 2,
+      name: "A2",
+      dueDate: "2025-08-15",
+      points: 100,
+      group: "Assignments",
+    },
+    {
+      id: 3,
+      name: "Quiz 1",
+      dueDate: "2025-08-10",
+      points: 50,
+      group: "Quizzes",
+    },
+    {
+      id: 4,
+      name: "Midterm Exam",
+      dueDate: "2025-08-20",
+      points: 150,
+      group: "Exams",
+    },
+    {
+      id: 5,
+      name: "Final Project",
+      dueDate: "2025-08-25",
+      points: 200,
+      group: "Projects",
+    },
   ]);
 
-  const [newName, setNewName] = useState("");
+  const [groups, setGroups] = useState<string[]>([
+    "Assignments",
+    "Quizzes",
+    "Exams",
+    "Projects",
+  ]);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const addAssignment = () => {
-    if (!newName.trim()) return;
-    const newAssignment = {
+    const group = prompt("Enter assignment group (e.g. Quizzes, Exams):");
+    const name = prompt("Enter assignment name:");
+    const dueDate = prompt("Enter due date (YYYY-MM-DD):");
+    const pointsStr = prompt("Enter points:");
+
+    if (!name || !dueDate || !pointsStr || !group) return;
+
+    const points = parseInt(pointsStr);
+    const newAssignment: Assignment = {
       id: Date.now(),
-      name: newName.trim(),
+      name,
+      dueDate,
+      points,
+      group,
     };
+
     setAssignments([...assignments, newAssignment]);
-    setNewName("");
+
+    if (!groups.includes(group)) {
+      setGroups([...groups, group]);
+    }
+  };
+
+  const addGroup = () => {
+    const newGroup = prompt("Enter new group name:");
+    if (!newGroup) return;
+    if (!groups.includes(newGroup)) {
+      setGroups([...groups, newGroup]);
+    }
   };
 
   const deleteAssignment = (id: number) => {
     setAssignments(assignments.filter((a) => a.id !== id));
   };
 
-  const updateAssignmentName = (id: number, updatedName: string) => {
-    setAssignments(
-      assignments.map((a) =>
-        a.id === id ? { ...a, name: updatedName } : a
-      )
-    );
+  const editAssignment = (id: number) => {
+    const assignment = assignments.find((a) => a.id === id);
+    if (!assignment) return;
+
+    const newName = prompt("Edit name:", assignment.name);
+    const newDueDate = prompt("Edit due date (YYYY-MM-DD):", assignment.dueDate);
+    const newPoints = prompt("Edit points:", assignment.points.toString());
+
+    if (!newName || !newDueDate || !newPoints) return;
+
+    const updated: Assignment = {
+      ...assignment,
+      name: newName,
+      dueDate: newDueDate,
+      points: parseInt(newPoints),
+    };
+
+    setAssignments(assignments.map((a) => (a.id === id ? updated : a)));
   };
+
+  const filteredAssignments = assignments.filter((assignment) =>
+    assignment.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div className="assignments-container">
-      <h2 className="assignments-title">
+      <div className="assignments-header">
         <FaClipboardList className="assignments-icon" />
-        Assignments
-      </h2>
+        <h1 className="assignments-title">Assignments</h1>
+      </div>
 
-      <input
-        className="form-control mb-3"
-        type="text"
-        placeholder="Search Assignments"
-      />
-
-      <div className="d-flex mb-3 gap-2">
-        <input
-          type="text"
-          className="form-control"
-          value={newName}
-          onChange={(e) => setNewName(e.target.value)}
-          placeholder="New Assignment Name"
-        />
-        <button className="btn btn-primary" onClick={addAssignment}>
-          + Assignment
+      <div className="assignments-controls">
+        <button className="group-btn" onClick={addGroup}>
+          +Group
+        </button>
+        <button className="assignment-btn" onClick={addAssignment}>
+          +Assignment
         </button>
       </div>
 
-      <h4>Assignments</h4>
-      <ul className="list-group mb-4">
-        {assignments.map((a) => (
-          <li
-            key={a.id}
-            className="list-group-item d-flex justify-content-between align-items-center"
-          >
-            <input
-              type="text"
-              className="form-control me-2"
-              value={a.name}
-              onChange={(e) => updateAssignmentName(a.id, e.target.value)}
-            />
-            <div className="d-flex align-items-center gap-2">
-              <Link
-                to={`/kambaz/courses/assignments/${a.id}`}
-                className="btn btn-outline-secondary"
-              >
-                Edit
-              </Link>
-              <button
-                className="btn btn-danger"
-                onClick={() => deleteAssignment(a.id)}
-              >
-                Delete
-              </button>
-            </div>
-          </li>
+      <div className="assignments-searchbar">
+        <input
+          type="text"
+          placeholder="Search assignments"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </div>
+
+      <div className="assignments-groups">
+        {groups.map((group) => (
+          <div key={group} className="assignment-group">
+            <h2>{group}</h2>
+            {filteredAssignments
+              .filter((a) => a.group === group)
+              .map((a) => (
+                <AssignmentItem
+                  key={a.id}
+                  id={a.id}
+                  name={a.name}
+                  dueDate={a.dueDate}
+                  points={a.points}
+                  group={a.group}
+                  onDelete={deleteAssignment}
+                  onEdit={editAssignment}
+                />
+              ))}
+          </div>
         ))}
-      </ul>
-
-      <h4>Quizzes</h4>
-      <ul>
-        <li>Quiz 1</li>
-      </ul>
-
-      <h4>Exams</h4>
-      <ul>
-        <li>Midterm Exam</li>
-      </ul>
-
-      <h4>Projects</h4>
-      <ul>
-        <li>Final Project</li>
-      </ul>
+      </div>
     </div>
   );
 }
