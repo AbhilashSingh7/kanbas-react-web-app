@@ -38,6 +38,11 @@ export default function Labs() {
             Lab 4
           </Link>
         </li>
+        <li>
+          <Link to="/lab5" style={{ color: "white", textDecoration: "underline" }}>
+            Lab 5
+          </Link>
+        </li>
       </ul>
     </div>
   );
