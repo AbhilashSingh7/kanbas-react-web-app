@@ -30,10 +30,11 @@ export const fetchTodos = async () => {
   return response.data;
 };
 
-export const createTodo = async () => {
-  const response = await axios.post(`${TODOS_API}`); // ✅ use POST to create new todo
+export const createTodo = async (todo: { title: string; completed: boolean }) => {
+  const response = await axios.post(`${TODOS_API}`, todo); // send JSON body
   return response.data;
 };
+
 
 export const deleteTodo = async (id: number) => {
   const response = await axios.delete(`${TODOS_API}/${id}`); // ✅ use DELETE with ID param

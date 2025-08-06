@@ -21,13 +21,13 @@ export default function WorkingWithArraysAsynchronously() {
   };
 
   const handleCreate = async () => {
-    const updated = await createTodo();
-    setTodos(updated);
+    const newTodo = await createTodo({ title: "New Posted Todo", completed: false });
+    setTodos([...todos, newTodo]);
   };
 
   const handleDelete = async (id: number) => {
-    const updated = await deleteTodo(id);
-    setTodos(updated);
+    await deleteTodo(id); // new delete returns 204
+    setTodos(todos.filter((todo) => todo.id !== id));
   };
 
   const handleUpdateTitle = async (id: number) => {

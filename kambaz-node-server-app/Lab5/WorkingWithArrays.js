@@ -24,26 +24,26 @@ export default function WorkingWithArrays(app) {
     res.json(completedTodos);
   });
 
-  // Create a new todo (POST)
-  app.post("/labs/todos", (req, res) => {
+  // ✅ JSON-based POST route
+  app.post("/lab5/todos", (req, res) => {
     const newTodo = {
       id: new Date().getTime(),
-      title: "New Task",
-      completed: false,
-      description: "New todo description",
+      title: req.body.title,
+      completed: req.body.completed,
+      description: req.body.description,
     };
     todos.push(newTodo);
     res.json(newTodo);
   });
 
-  // Delete a todo (DELETE)
-  app.delete("/labs/todos", (req, res) => {
-    const { id } = req.body;
-    todos = todos.filter((t) => t.id !== id);
-    res.json(todos);
+  // ✅ DELETE route with ID param
+  app.delete("/lab5/todos/:tid", (req, res) => {
+    const { tid } = req.params;
+    todos = todos.filter((t) => t.id !== parseInt(tid));
+    res.sendStatus(204);
   });
 
-  // Update title (PUT)
+  // ✅ Update title
   app.put("/labs/todos/title", (req, res) => {
     const { id, title } = req.body;
     todos = todos.map((todo) =>
@@ -52,7 +52,7 @@ export default function WorkingWithArrays(app) {
     res.json(todos);
   });
 
-  // Update completed status (PUT)
+  // ✅ Update completed status
   app.put("/labs/todos/completed", (req, res) => {
     const { id, completed } = req.body;
     todos = todos.map((todo) =>
@@ -61,7 +61,7 @@ export default function WorkingWithArrays(app) {
     res.json(todos);
   });
 
-  // Update description (PUT)
+  // ✅ Update description
   app.put("/labs/todos/description", (req, res) => {
     const { id, description } = req.body;
     todos = todos.map((todo) =>
