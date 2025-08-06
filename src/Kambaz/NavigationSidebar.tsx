@@ -18,6 +18,7 @@ const navItems = [
   { label: "Quizzes", path: "/kambaz/quizzes" },
   { label: "Assignments", path: "/kambaz/assignments" },
   { label: "Grades", path: "/kambaz/grades" },
+  { label: "People", path: "/kambaz/people" },
 ];
 
 export default function NavigationSidebar() {

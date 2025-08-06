@@ -15,6 +15,7 @@ import Assignments from "./Assignments";
 import Grades from "./Grades";
 import Account from "./Account";
 import Northeastern from "./Northeastern";
+import People from "./People";
 
 export default function KambazApp() {
   return (
@@ -39,6 +40,7 @@ export default function KambazApp() {
           <Route path="assignments" element={<Assignments />} />
           <Route path="grades" element={<Grades />} />
           <Route path="northeastern" element={<Northeastern />} />
+          <Route path="people" element={<People />} />
         </Routes>
       </div>
     </div>
