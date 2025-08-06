@@ -67,3 +67,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* OVERRIDE body styling to fix global layout */
+body {
+  background-color: #232424 !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  color: #f2f4f7 !important;
+  padding-bottom: 60px;
+  display: block !important;
+}

@@ -1,19 +1,24 @@
-// Labs/Lab4/Counter.tsx
-import { useState } from "react";
+// src/Labs/Lab4/Counter.tsx
+
+import React, { useState } from "react";
 
 export default function Counter() {
-  const [count, setCount] = useState(0);
-
-  const increment = () => setCount((prev) => prev + 1);
-  const decrement = () => setCount((prev) => prev - 1);
-  const reset = () => setCount(0);
+  const [count, setCount] = useState(7);
+  console.log(count);
 
   return (
-    <div>
-      <h3>Counter: {count}</h3>
-      <button onClick={increment} style={{ marginRight: "5px" }}>+</button>
-      <button onClick={decrement} style={{ marginRight: "5px" }}>−</button>
-      <button onClick={reset}>Reset</button>
+    <div id="wd-counter-use-state">
+      <h2>Counter: {count}</h2>
+
+      <button onClick={() => setCount(count + 1)} id="wd-counter-up-click">
+        Up
+      </button>
+
+      <button onClick={() => setCount(count - 1)} id="wd-counter-down-click">
+        Down
+      </button>
+
+      <hr />
     </div>
   );
 }
