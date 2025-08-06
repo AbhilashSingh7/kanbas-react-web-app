@@ -4,6 +4,7 @@ import PathParameters from "./PathParameters";
 import WorkingWithObjects from "./WorkingWithObjects";
 import Module from "./Module";
 import WorkingWithArrays from "./WorkingWithArrays";
+import HttpClientCRUD from "./HttpClientCRUD";
 const REMOTE_SERVER = import.meta.env.VITE_REMOTE_SERVER;
 
 export default function Lab5() {
@@ -20,6 +21,7 @@ export default function Lab5() {
       <WorkingWithObjects />
       <Module />
       <WorkingWithArrays />
+      <HttpClientCRUD />
     </div>
   );
 }
