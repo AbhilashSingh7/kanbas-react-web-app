@@ -124,3 +124,7 @@
   background-color: #007f00;
   border-color: #007f00;
 }
+
+.modules-container.no-left-margin {
+  margin-left: 0;
+}

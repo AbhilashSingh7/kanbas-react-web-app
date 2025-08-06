@@ -1,5 +1,6 @@
 // src/Kambaz/CoursesDashboard.tsx
 import { useState } from "react";
+import "./CoursesDashboard.css";
 
 export default function CoursesDashboard() {
   const [courses, setCourses] = useState([
@@ -32,41 +33,30 @@ export default function CoursesDashboard() {
   };
 
   return (
-    <div style={{ backgroundColor: "black", color: "white", padding: "2rem", minHeight: "100vh", marginLeft: 220 }}>
-      <h2 style={{ color: "red", marginBottom: "1rem" }}>Courses Dashboard</h2>
-      <div className="course-crud mt-4">
-        <h3>Manage Courses</h3>
-        <div className="mb-3 d-flex gap-2">
+    <div className="courses-dashboard">
+      <h2 className="dashboard-title">Courses Dashboard</h2>
+
+      <div className="course-crud">
+        <h3 className="section-title">Manage Courses</h3>
+        <div className="add-course-form">
           <input
             type="text"
-            className="form-control"
             value={newCourseName}
             onChange={(e) => setNewCourseName(e.target.value)}
             placeholder="New Course Name"
           />
-          <button className="btn btn-danger" onClick={addCourse}>
-            Add
-          </button>
+          <button onClick={addCourse}>Add</button>
         </div>
 
-        <ul className="list-group">
+        <ul className="course-list">
           {courses.map((course) => (
-            <li
-              key={course.id}
-              className="list-group-item d-flex justify-content-between align-items-center"
-            >
+            <li key={course.id} className="course-item">
               <input
                 type="text"
-                className="form-control me-2"
                 value={course.name}
                 onChange={(e) => editCourse(course.id, e.target.value)}
               />
-              <button
-                className="btn btn-danger"
-                onClick={() => deleteCourse(course.id)}
-              >
-                Delete
-              </button>
+              <button onClick={() => deleteCourse(course.id)}>Delete</button>
             </li>
           ))}
         </ul>

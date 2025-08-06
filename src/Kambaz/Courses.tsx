@@ -1,32 +1,45 @@
 // src/Kambaz/Courses.tsx
-import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
 import CourseNavigation from "./CourseNavigation";
 import CourseHome from "./CourseHome";
 import Modules from "./Modules";
 import Assignments from "./Assignments";
 import AssignmentEditor from "./AssignmentEditor";
-import Piazza from "./Piazza";
-import Zoom from "./Zoom";
-import Quizzes from "./Quizzes";
-import Grades from "./Grades";
-import CoursesDashboard from "./CoursesDashboard";
 import "./Courses.css";
 
 export default function Courses() {
+  const [courses, setCourses] = useState([
+    { id: 1, name: "CS5610 Web Development" },
+    { id: 2, name: "CS5800 Algorithms" },
+  ]);
+
+  const [newCourseName, setNewCourseName] = useState("");
+
+  const addCourse = () => {
+    if (!newCourseName.trim()) return;
+    const newCourse = {
+      id: Date.now(),
+      name: newCourseName.trim(),
+    };
+    setCourses([...courses, newCourse]);
+    setNewCourseName("");
+  };
+
   return (
     <div className="courses-page">
-      <CourseNavigation />
-      <div className="courses-content">
+      <div className="courses-nav">
+        <CourseNavigation />
+      </div>
+
+      <div className="courses-main">
         <Routes>
-          <Route path="/" element={<CoursesDashboard />} />
+          {/* ✅ This makes CourseHome the default screen */}
+          <Route path="/" element={<Navigate to="home" />} />
           <Route path="home" element={<CourseHome />} />
           <Route path="modules" element={<Modules />} />
           <Route path="assignments" element={<Assignments />} />
           <Route path="assignments/:assignmentId" element={<AssignmentEditor />} />
-          <Route path="piazza" element={<Piazza />} />
-          <Route path="zoom" element={<Zoom />} />
-          <Route path="quizzes" element={<Quizzes />} />
-          <Route path="grades" element={<Grades />} />
         </Routes>
       </div>
     </div>

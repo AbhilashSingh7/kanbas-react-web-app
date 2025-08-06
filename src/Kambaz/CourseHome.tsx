@@ -1,4 +1,3 @@
-// src/Kambaz/CourseHome.tsx
 import TopButtons from "./TopButtons";
 import ModulesList from "./ModulesList";
 import CourseStatus from "./CourseStatus";
@@ -12,11 +11,11 @@ export default function CourseHome() {
         <FaHome className="course-home-icon" />
         Course Home
       </h2>
+
       <div className="course-home-layout">
         <div className="course-home-left">
           <TopButtons />
-          <ModulesList />
-          <ModulesList />
+          <ModulesList className="no-left-margin" />
         </div>
         <div className="course-home-right">
           <CourseStatus />

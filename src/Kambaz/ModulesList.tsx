@@ -2,7 +2,11 @@ import { useState } from "react";
 import { FaLayerGroup, FaPlus, FaTrash, FaEdit, FaCaretDown, FaCaretRight, FaBookOpen } from "react-icons/fa";
 import "./Modules.css";
 
-export default function ModulesList() {
+interface ModulesListProps {
+  className?: string;
+}
+
+export default function ModulesList({ className = "" }: ModulesListProps) {
   const [modules, setModules] = useState([
     {
       id: 1,
@@ -108,7 +112,7 @@ export default function ModulesList() {
   };
 
   return (
-    <div className="modules-container">
+    <div className={`modules-container ${className}`}>
       <h2 className="modules-title">
         <FaLayerGroup className="modules-icon" />
         Modules
