@@ -6,6 +6,7 @@ import Module from "./Module";
 import WorkingWithArrays from "./WorkingWithArrays";
 import HttpClientCRUD from "./HttpClientCRUD";
 import WorkingWithObjectsAsynchronously from "./WorkingWithObjectsAsynchronously";
+import WorkingWithArraysAsynchronously from "./WorkingWithArraysAsynchronously";
 
 const REMOTE_SERVER = import.meta.env.VITE_REMOTE_SERVER;
 
@@ -22,6 +23,7 @@ export default function Lab5() {
       <PathParameters />
       <WorkingWithObjects />
       <WorkingWithObjectsAsynchronously />
+      <WorkingWithArraysAsynchronously />
       <Module />
       <WorkingWithArrays />
       <HttpClientCRUD />

@@ -6,26 +6,26 @@ let todos = [
 ];
 
 export default function WorkingWithArrays(app) {
-  // 5.2.4.1 – Get all todos
-  app.get("/lab5/todos", (req, res) => {
+  // Get all todos
+  app.get("/labs/todos", (req, res) => {
     res.json(todos);
   });
 
-  // 5.2.4.2 – Get todo by ID
-  app.get("/lab5/todos/:id", (req, res) => {
+  // Get todo by ID
+  app.get("/labs/todos/:id", (req, res) => {
     const { id } = req.params;
     const todo = todos.find((t) => t.id === parseInt(id));
     res.json(todo);
   });
 
-  // 5.2.4.3 – Get completed todos
-  app.get("/lab5/todos/completed=true", (req, res) => {
+  // Get only completed todos
+  app.get("/labs/todos/completed=true", (req, res) => {
     const completedTodos = todos.filter((t) => t.completed === true);
     res.json(completedTodos);
   });
 
-  // 5.2.4.4 – Create new todo
-  app.get("/lab5/todos/create", (req, res) => {
+  // Create a new todo (POST)
+  app.post("/labs/todos", (req, res) => {
     const newTodo = {
       id: new Date().getTime(),
       title: "New Task",
@@ -36,38 +36,37 @@ export default function WorkingWithArrays(app) {
     res.json(newTodo);
   });
 
-  // 5.2.4.5 – Delete todo by ID
-  app.get("/lab5/todos/:id/delete", (req, res) => {
-    const { id } = req.params;
-    todos = todos.filter((todo) => todo.id !== parseInt(id));
+  // Delete a todo (DELETE)
+  app.delete("/labs/todos", (req, res) => {
+    const { id } = req.body;
+    todos = todos.filter((t) => t.id !== id);
     res.json(todos);
   });
 
-  // 5.2.4.6 – Update todo title by ID
-  app.get("/lab5/todos/:id/title/:title", (req, res) => {
-    const { id, title } = req.params;
-    const todo = todos.find((t) => t.id === parseInt(id));
-    if (todo) todo.title = title;
+  // Update title (PUT)
+  app.put("/labs/todos/title", (req, res) => {
+    const { id, title } = req.body;
+    todos = todos.map((todo) =>
+      todo.id === id ? { ...todo, title } : todo
+    );
     res.json(todos);
   });
 
-  // 5.2.4.7 – Update completed status
-  app.get("/lab5/todos/:id/completed/:completed", (req, res) => {
-    const { id, completed } = req.params;
-    const todo = todos.find((t) => t.id === parseInt(id));
-    if (todo) {
-      todo.completed = completed === "true";
-    }
-    res.json(todo);
+  // Update completed status (PUT)
+  app.put("/labs/todos/completed", (req, res) => {
+    const { id, completed } = req.body;
+    todos = todos.map((todo) =>
+      todo.id === id ? { ...todo, completed } : todo
+    );
+    res.json(todos);
   });
 
-  // 5.2.4.7 – Update description
-  app.get("/lab5/todos/:id/description/:description", (req, res) => {
-    const { id, description } = req.params;
-    const todo = todos.find((t) => t.id === parseInt(id));
-    if (todo) {
-      todo.description = decodeURIComponent(description);
-    }
-    res.json(todo);
+  // Update description (PUT)
+  app.put("/labs/todos/description", (req, res) => {
+    const { id, description } = req.body;
+    todos = todos.map((todo) =>
+      todo.id === id ? { ...todo, description } : todo
+    );
+    res.json(todos);
   });
 }

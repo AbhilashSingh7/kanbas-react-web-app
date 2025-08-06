@@ -1,3 +1,4 @@
+// src/Labs/Lab5/WorkingWithArraysAsynchronously.tsx
 import { useEffect, useState } from "react";
 import {
   fetchTodos,
@@ -7,6 +8,7 @@ import {
   completeTodo,
   updateTodoDescription,
 } from "./client";
+import { FaTrash, FaPlusCircle } from "react-icons/fa";
 
 export default function WorkingWithArraysAsynchronously() {
   const [todos, setTodos] = useState<any[]>([]);
@@ -19,8 +21,8 @@ export default function WorkingWithArraysAsynchronously() {
   };
 
   const handleCreate = async () => {
-    const created = await createTodo();
-    setTodos([...todos, created]);
+    const updated = await createTodo();
+    setTodos(updated);
   };
 
   const handleDelete = async (id: number) => {
@@ -53,11 +55,15 @@ export default function WorkingWithArraysAsynchronously() {
 
   return (
     <div id="wd-asynchronous-arrays">
-      <h3>Working with Arrays Asynchronously</h3>
-
-      <button className="btn btn-success mb-2" onClick={handleCreate}>
-        Create Todo
-      </button>
+      <h3>
+        Working with Arrays Asynchronously
+        <FaPlusCircle
+          onClick={handleCreate}
+          className="text-success float-end fs-3"
+          id="wd-create-todo"
+          role="button"
+        />
+      </h3>
 
       <ul className="list-group">
         {todos.map((todo) => (
@@ -68,9 +74,12 @@ export default function WorkingWithArraysAsynchronously() {
                 <div>{todo.description}</div>
               </div>
               <div>
-                <button className="btn btn-danger btn-sm me-2" onClick={() => handleDelete(todo.id)}>
-                  Delete
-                </button>
+                <FaTrash
+                  onClick={() => handleDelete(todo.id)}
+                  className="text-danger float-end ms-1"
+                  id="wd-remove-todo"
+                  role="button"
+                />
                 <input
                   type="text"
                   value={newTitle}
