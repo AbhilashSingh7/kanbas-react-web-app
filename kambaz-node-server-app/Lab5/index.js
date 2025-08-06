@@ -1,5 +1,6 @@
 // Lab5/index.js
 import PathParameters from "./PathParameters.js";
+import WorkingWithObjects from "./WorkingWithObjects.js";
 
 export default function Lab5(app) {
   app.get("/lab5/welcome", (req, res) => {
@@ -7,4 +8,5 @@ export default function Lab5(app) {
   });
 
   PathParameters(app);
+  WorkingWithObjects(app);
 }
