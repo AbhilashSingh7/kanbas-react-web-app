@@ -1,38 +1,45 @@
+// src/Kambaz/Signin.tsx
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useUser } from "./UserContext";
 
 export default function Signin() {
-  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const { signIn } = useUser();
   const navigate = useNavigate();
 
-  const handleSignin = () => {
-    // For now, no real auth — just redirect
-    navigate("/profile");
+  const handleSignIn = () => {
+    const success = signIn(email, password);
+    if (success) {
+      navigate("/kambaz/account/profile");
+    } else {
+      setError("Invalid email or password.");
+    }
   };
 
   return (
-    <div>
+    <div className="signin-container">
       <h2>Sign In</h2>
-      <input
-        type="text"
-        placeholder="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-      /><br />
-      <input
-        type="password"
-        placeholder="Password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      /><br />
-      <button onClick={handleSignin}>Sign In</button>
-      <p>
-        Don't have an account?{" "}
-        <span style={{ color: "blue", cursor: "pointer" }} onClick={() => navigate("/signup")}>
-          Sign Up
-        </span>
-      </p>
+      {error && <p style={{ color: "red" }}>{error}</p>}
+      <div>
+        <label>Email:</label>
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+      </div>
+      <div>
+        <label>Password:</label>
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+      </div>
+      <button onClick={handleSignIn}>Sign In</button>
     </div>
   );
 }

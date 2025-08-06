@@ -1,16 +1,17 @@
 // src/Kambaz/Northeastern.tsx
-import northeasternLogo from "./northeasternlogo.png";
 import { FaUniversity } from "react-icons/fa";
 
 export default function Northeastern() {
+  const northeasternLogo = "/public/Northeasternlogo.png";
+
   return (
     <div
       style={{
-        backgroundColor: "black",
+        backgroundColor: "white",
         color: "white",
         minHeight: "100vh",
         padding: "2rem",
-        marginLeft: "200px", // 👈 This ensures it doesn't overlap the sidebar
+        marginLeft: "200px",
       }}
     >
       <div style={{ textAlign: "center" }}>
@@ -24,7 +25,7 @@ export default function Northeastern() {
           <img
             src={northeasternLogo}
             alt="Northeastern Logo"
-            style={{ width: "200px", height: "auto", marginTop: "1rem" }}
+            style={{ width: "400px", height: "auto", marginTop: "1rem" }}
           />
         </a>
       </div>
