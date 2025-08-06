@@ -16,6 +16,7 @@ export default function CourseHome() {
         <div className="course-home-left">
           <TopButtons />
           <ModulesList />
+          <ModulesList />
         </div>
         <div className="course-home-right">
           <CourseStatus />
