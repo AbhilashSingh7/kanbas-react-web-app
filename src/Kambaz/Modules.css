@@ -1,20 +1,126 @@
-/* src/Kambaz/Modules.css */
-
 .modules-container {
-    background-color: black;
-    color: white;
-    min-height: 100vh;
-    padding: 2rem;
-    margin-left: 220px;
-  }
-  
-  .modules-title {
-    color: red;
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-  }
-  
-  .modules-icon {
-    margin-right: 0.5rem;
-  }
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  margin-left: 220px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.modules-title {
+  display: flex;
+  align-items: center;
+  color: red;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.modules-icon {
+  margin-right: 10px;
+}
+
+/* Module Card */
+.module-card {
+  background-color: #333;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Header of each module */
+.module-header {
+  background-color: #444;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+}
+
+.module-header h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Collapsed section with lessons */
+.module-lessons {
+  background-color: #222;
+  padding: 12px 16px;
+}
+
+/* Each lesson row */
+.lesson-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #444;
+  transition: background-color 0.2s;
+}
+
+.lesson-row:last-child {
+  border-bottom: none;
+}
+
+.lesson-row:hover {
+  background-color: #2a2a2a;
+  border-radius: 4px;
+}
+
+.lesson-title {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.lesson-title svg {
+  margin-right: 8px;
+  color: white;
+}
+
+.lesson-title span {
+  display: flex;
+  align-items: center;
+}
+
+/* Action buttons */
+.lesson-actions button,
+.module-header button {
+  margin-left: 6px;
+}
+
+/* Input group styling */
+.input-group {
+  margin: 12px 0 24px;
+  max-width: 400px;
+}
+
+.input-group .form-control {
+  border-radius: 0;
+}
+
+.input-group .btn {
+  border-radius: 0;
+}
+
+.btn-danger {
+  background-color: red;
+  border-color: red;
+}
+
+.btn-danger:hover {
+  background-color: #cc0000;
+  border-color: #cc0000;
+}
+
+.btn-success {
+  background-color: green;
+  border-color: green;
+}
+
+.btn-success:hover {
+  background-color: #007f00;
+  border-color: #007f00;
+}

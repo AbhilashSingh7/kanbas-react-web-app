@@ -1,6 +1,6 @@
-// src/Kambaz/ModulesList.tsx
 import { useState } from "react";
-import { FaPlus, FaTrash, FaEdit } from "react-icons/fa";
+import { FaLayerGroup, FaPlus, FaTrash, FaEdit, FaCaretDown, FaCaretRight, FaBookOpen } from "react-icons/fa";
+import "./Modules.css";
 
 export default function ModulesList() {
   const [modules, setModules] = useState([
@@ -18,10 +18,19 @@ export default function ModulesList() {
 
   const [newModuleTitle, setNewModuleTitle] = useState("");
   const [newLesson, setNewLesson] = useState("");
+  const [expandedModules, setExpandedModules] = useState<number[]>([]);
   const [editingModuleId, setEditingModuleId] = useState<number | null>(null);
   const [editingLessonIndex, setEditingLessonIndex] = useState<number | null>(null);
   const [editedTitle, setEditedTitle] = useState("");
   const [editedLesson, setEditedLesson] = useState("");
+
+  const toggleModule = (id: number) => {
+    if (expandedModules.includes(id)) {
+      setExpandedModules(expandedModules.filter((modId) => modId !== id));
+    } else {
+      setExpandedModules([...expandedModules, id]);
+    }
+  };
 
   const addModule = () => {
     if (!newModuleTitle.trim()) return;
@@ -36,11 +45,11 @@ export default function ModulesList() {
     setModules(modules.filter((mod) => mod.id !== id));
   };
 
-  const addLesson = (id: number) => {
+  const addLesson = (modId: number) => {
     if (!newLesson.trim()) return;
     setModules(
       modules.map((mod) =>
-        mod.id === id
+        mod.id === modId
           ? { ...mod, lessons: [...mod.lessons, newLesson] }
           : mod
       )
@@ -99,10 +108,13 @@ export default function ModulesList() {
   };
 
   return (
-    <div>
-      <h3 className="text-white">Modules List</h3>
+    <div className="modules-container">
+      <h2 className="modules-title">
+        <FaLayerGroup className="modules-icon" />
+        Modules
+      </h2>
 
-      <div className="input-group mb-3">
+      <div className="input-group mb-4">
         <input
           value={newModuleTitle}
           onChange={(e) => setNewModuleTitle(e.target.value)}
@@ -115,103 +127,119 @@ export default function ModulesList() {
       </div>
 
       {modules.map((mod) => (
-        <div className="mb-4 border rounded p-3 bg-dark text-light" key={mod.id}>
-          <div className="d-flex justify-content-between align-items-center">
-            {editingModuleId === mod.id ? (
-              <>
-                <input
-                  value={editedTitle}
-                  onChange={(e) => setEditedTitle(e.target.value)}
-                  className="form-control me-2"
-                />
-                <button className="btn btn-success btn-sm me-2" onClick={saveModuleEdit}>
-                  Save
-                </button>
-                <button
-                  className="btn btn-secondary btn-sm"
-                  onClick={() => setEditingModuleId(null)}
-                >
-                  Cancel
-                </button>
-              </>
-            ) : (
-              <>
-                <h4>{mod.title}</h4>
-                <div>
+        <div className="module-card" key={mod.id}>
+          <div className="module-header" onClick={() => toggleModule(mod.id)}>
+            <div className="d-flex align-items-center">
+              {expandedModules.includes(mod.id) ? <FaCaretDown /> : <FaCaretRight />}
+              {editingModuleId === mod.id ? (
+                <>
+                  <input
+                    value={editedTitle}
+                    onChange={(e) => setEditedTitle(e.target.value)}
+                    className="form-control ms-2"
+                  />
                   <button
-                    className="btn btn-outline-light btn-sm me-2"
-                    onClick={() => startEditingModule(mod.id, mod.title)}
+                    className="btn btn-success btn-sm ms-2"
+                    onClick={saveModuleEdit}
                   >
-                    <FaEdit />
+                    Save
                   </button>
                   <button
-                    className="btn btn-outline-danger btn-sm"
-                    onClick={() => deleteModule(mod.id)}
+                    className="btn btn-secondary btn-sm ms-2"
+                    onClick={() => setEditingModuleId(null)}
                   >
-                    <FaTrash />
+                    Cancel
                   </button>
+                </>
+              ) : (
+                <h4 className="ms-2">{mod.title}</h4>
+              )}
+            </div>
+
+            <div>
+              <button
+                className="btn btn-outline-light btn-sm me-2"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  startEditingModule(mod.id, mod.title);
+                }}
+              >
+                <FaEdit />
+              </button>
+              <button
+                className="btn btn-outline-danger btn-sm"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  deleteModule(mod.id);
+                }}
+              >
+                <FaTrash />
+              </button>
+            </div>
+          </div>
+
+          {expandedModules.includes(mod.id) && (
+            <div className="module-lessons">
+              {mod.lessons.map((lesson, index) => (
+                <div key={index} className="lesson-row">
+                  {editingLessonIndex === index ? (
+                    <>
+                      <input
+                        value={editedLesson}
+                        onChange={(e) => setEditedLesson(e.target.value)}
+                        className="form-control me-2"
+                      />
+                      <button
+                        className="btn btn-success btn-sm"
+                        onClick={() => saveLessonEdit(mod.id)}
+                      >
+                        Save
+                      </button>
+                      <button
+                        className="btn btn-secondary btn-sm ms-2"
+                        onClick={() => setEditingLessonIndex(null)}
+                      >
+                        Cancel
+                      </button>
+                    </>
+                  ) : (
+                    <>
+                      <span>
+                        <FaBookOpen />
+                        {lesson}
+                      </span>
+                      <div className="lesson-actions">
+                        <button
+                          className="btn btn-outline-light btn-sm"
+                          onClick={() => startEditingLesson(index, lesson)}
+                        >
+                          <FaEdit />
+                        </button>
+                        <button
+                          className="btn btn-outline-danger btn-sm"
+                          onClick={() => deleteLesson(mod.id, index)}
+                        >
+                          <FaTrash />
+                        </button>
+                      </div>
+                    </>
+                  )}
                 </div>
-              </>
-            )}
-          </div>
+              ))}
 
-          <ul className="ms-3 mt-2">
-            {mod.lessons.map((lesson, index) => (
-              <li key={index} className="d-flex justify-content-between align-items-center mb-2">
-                {editingLessonIndex === index ? (
-                  <>
-                    <input
-                      value={editedLesson}
-                      onChange={(e) => setEditedLesson(e.target.value)}
-                      className="form-control me-2"
-                    />
-                    <button
-                      className="btn btn-success btn-sm me-2"
-                      onClick={() => saveLessonEdit(mod.id)}
-                    >
-                      Save
-                    </button>
-                    <button
-                      className="btn btn-secondary btn-sm"
-                      onClick={() => setEditingLessonIndex(null)}
-                    >
-                      Cancel
-                    </button>
-                  </>
-                ) : (
-                  <>
-                    <span>{lesson}</span>
-                    <div>
-                      <button
-                        className="btn btn-outline-light btn-sm me-2"
-                        onClick={() => startEditingLesson(index, lesson)}
-                      >
-                        <FaEdit />
-                      </button>
-                      <button
-                        className="btn btn-outline-danger btn-sm"
-                        onClick={() => deleteLesson(mod.id, index)}
-                      >
-                        <FaTrash />
-                      </button>
-                    </div>
-                  </>
-                )}
-              </li>
-            ))}
-          </ul>
-
-          <div className="input-group mt-2">
-            <input
-              className="form-control"
-              placeholder="New Lesson"
-              value={newLesson}
-              onChange={(e) => setNewLesson(e.target.value)}
-            />
-            <button className="btn btn-primary" onClick={() => addLesson(mod.id)}>
-              <FaPlus className="me-1" /> Add Lesson
-            </button>
-          </div>
+              <div className="input-group mt-2">
+                <input
+                  className="form-control"
+                  placeholder="New Lesson"
+                  value={newLesson}
+                  onChange={(e) => setNewLesson(e.target.value)}
+                />
+                <button className="btn btn-primary" onClick={() => addLesson(mod.id)}>
+                  <FaPlus className="me-1" /> Add Lesson
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       ))}
     </div>
