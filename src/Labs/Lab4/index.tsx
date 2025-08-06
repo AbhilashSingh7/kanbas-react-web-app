@@ -1,5 +1,5 @@
 // src/Labs/Lab4/index.tsx
-
+import { useNavigate } from "react-router-dom";
 import ClickEvent from "./ClickEvent";
 import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
@@ -19,12 +19,20 @@ import store from "../store";
 import "./styles.css";
 
 export default function Lab4() {
+  const navigate = useNavigate();
   const sayHello = () => {
     alert("Hello");
   };
 
   return (
     <div className="lab4-container">
+      {/* ✅ NEW BUTTON */}
+      <button
+        onClick={() => navigate("/")}
+        className="btn btn-danger mb-4"
+      >
+        ← Back to Home
+      </button>
       <h1>Lab 4 – Events, State, and Redux</h1>
 
       <h2>1. Click Event</h2>
