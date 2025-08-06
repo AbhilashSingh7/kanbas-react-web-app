@@ -15,6 +15,8 @@ export default function LandingPage() {
           <li><Link style={styles.link} to="/lab2">Lab 2</Link></li>
           <li><Link style={styles.link} to="/lab3">Lab 3</Link></li>
           <li><Link style={styles.link} to="/lab4">Lab 4</Link></li>
+          <li><Link style={styles.link} to="/lab5">Lab 5</Link></li>
+          
         </ul>
       </section>
 
