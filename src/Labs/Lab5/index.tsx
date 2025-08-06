@@ -1,14 +1,17 @@
 // src/Labs/Lab5/index.tsx
+import EnvironmentVariables from "./EnvironmentVariables";
+const REMOTE_SERVER = import.meta.env.VITE_REMOTE_SERVER;
+
 export default function Lab5() {
-    return (
-      <div id="wd-lab5">
-        <h2>Lab 5</h2>
-        <ul className="list-group">
-          <a href="http://localhost:4000/lab5/welcome" className="list-group-item">
-            Welcome
-          </a>
-        </ul>
-      </div>
-    );
-  }
-  
+  return (
+    <div id="wd-lab5">
+      <h2>Lab 5</h2>
+      <ul className="list-group">
+        <a href={`${REMOTE_SERVER}/lab5/welcome`} className="list-group-item">
+          Welcome
+        </a>
+      </ul>
+      <EnvironmentVariables />
+    </div>
+  );
+}

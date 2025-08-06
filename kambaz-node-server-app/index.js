@@ -8,6 +8,9 @@ const app = express();
 Hello(app);   // existing route handler
 Lab5(app);    // ✅ new route handler
 
-app.listen(4000, () => {
-  console.log("Server is running at http://localhost:4000");
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, () => {
+  console.log(`Server is running at http://localhost:${PORT}`);
 });
+
