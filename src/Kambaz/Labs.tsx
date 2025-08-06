@@ -24,7 +24,7 @@ export default function Labs() {
           </Link>
         </li>
         <li>
-          <Link to="/kambaz/lab2" style={{ color: "white", textDecoration: "underline" }}>
+          <Link to="/lab2" style={{ color: "white", textDecoration: "underline" }}>
             Lab 2
           </Link>
         </li>

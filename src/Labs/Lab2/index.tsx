@@ -1,99 +1,48 @@
-import ReactDOM from "react-dom/client";
-import "./styles.css";
+// src/Labs/Lab2/index.tsx
+import "./index.css";
+import { useNavigate } from "react-router-dom";
+import ForegroundColors from "./ForegroundColors";
+import BackgroundColors from "./BackgroundColors";
+import Borders from "./Borders";
+import Padding from "./Padding";
+import Margins from "./Margins";
+import Corners from "./Corners";
+import Dimensions from "./Dimensions";
+import Positions from "./Positions";
+import Zindex from "./Zindex";
+import Float from "./Float";
+import GridLayout from "./GridLayout";
+import Flex from "./Flex";
+import ReactIconsSampler from "./ReactIcons";
 
-// Lab 2 Sections
-import SelectorsShowcase from "./SelectorsShowcase";
-import TypographyDemo from "./TypographyDemo";
-import ColorPalette from "./ColorPalette";
-import BoxModelDemo from "./BoxModelDemo";
-import PositioningDemo from "./PositioningDemo";
-import FlexboxDemo from "./FelxboxDemo";
-import GridDemo from "./GridDemo";
-import BootstrapUtilities from "./BootstrapUtilities";
-import ResponsiveLayout from "./ResponsiveLayout";
-
-const Lab2 = () => {
+export default function Lab2() {
+  const navigate = useNavigate();
   return (
-    <div className="lab2-container">
-      <h1>CS5610 – Lab 2 Showcase: CSS and Bootstrap</h1>
+    <div id="wd-lab2">
+      {/* ✅ NEW BUTTON */}
+      <button
+        onClick={() => navigate("/")}
+        className="btn btn-danger mb-4"
+      >
+        ← Back to Home
+      </button>
+      <h2>Lab 2 - Cascading Style Sheets</h2>
 
-      {/* Section 1: Selectors */}
-      <section>
-        <h2>1. Selectors (ID & Class)</h2>
-        <SelectorsShowcase />
-      </section>
+      {/* ... all previous sections ... */}
 
-      <hr />
-
-      {/* Section 2: Typography */}
-      <section>
-        <h2>2. Typography Demo</h2>
-        <TypographyDemo />
-      </section>
-
-      <hr />
-
-      {/* Section 3: Colors */}
-      <section>
-        <h2>3. Color Palette</h2>
-        <ColorPalette />
-      </section>
-
-      <hr />
-
-      {/* Section 4: Box Model */}
-      <section>
-        <h2>4. Box Model Demo</h2>
-        <BoxModelDemo />
-      </section>
-
-      <hr />
-
-      {/* Section 5: Positioning */}
-      <section>
-        <h2>5. Positioning Demo</h2>
-        <PositioningDemo />
-      </section>
-
-      <hr />
-
-      {/* Section 6: Flexbox */}
-      <section>
-        <h2>6. Flexbox Layout</h2>
-        <FlexboxDemo />
-      </section>
-
-      <hr />
-
-      {/* Section 7: Grid */}
-      <section>
-        <h2>7. Grid Layout</h2>
-        <GridDemo />
-      </section>
-
-      <hr />
-
-      {/* Section 8: Bootstrap Utilities */}
-      <section>
-        <h2>8. Bootstrap Utilities</h2>
-        <BootstrapUtilities />
-      </section>
-
-      <hr />
-
-      {/* Section 9: Responsive Design */}
-      <section>
-        <h2>9. Responsive Layout</h2>
-        <ResponsiveLayout />
-      </section>
+      <ForegroundColors />
+      <BackgroundColors />
+      <Borders />
+      <Padding />
+      <Margins />
+      <Corners />
+      <Dimensions />
+      <Positions />
+      <Zindex />
+      <Float />
+      <GridLayout />
+      <Flex />
+      <ReactIconsSampler />
     </div>
   );
-};
-
-export default Lab2;
-
-// Optional: Enable this if you're running index.tsx standalone
-if (document.getElementById("root")) {
-  const root = ReactDOM.createRoot(document.getElementById("root")!);
-  root.render(<Lab2 />);
 }
