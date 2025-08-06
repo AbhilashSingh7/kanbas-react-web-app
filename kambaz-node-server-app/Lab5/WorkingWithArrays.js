@@ -11,11 +11,26 @@ export default function WorkingWithArrays(app) {
     res.json(todos);
   });
 
-  // Get todo by ID
-  app.get("/labs/todos/:id", (req, res) => {
+  // ✅ Update entire todo by ID (new PUT route)
+  app.put("/labs/todos/:id", (req, res) => {
     const { id } = req.params;
-    const todo = todos.find((t) => t.id === parseInt(id));
-    res.json(todo);
+    const todoIndex = todos.findIndex((t) => t.id === parseInt(id));
+    if (todoIndex === -1) {
+      return res.status(404).json({ message: `Unable to update Todo with ID ${id}` });
+    }
+    todos[todoIndex] = { ...todos[todoIndex], ...req.body };
+    res.sendStatus(200);
+  });
+
+  // ✅ Delete with error handling
+  app.delete("/labs/todos/:id", (req, res) => {
+    const { id } = req.params;
+    const todoIndex = todos.findIndex((t) => t.id === parseInt(id));
+    if (todoIndex === -1) {
+      return res.status(404).json({ message: `Unable to delete Todo with ID ${id}` });
+    }
+    todos.splice(todoIndex, 1);
+    res.sendStatus(204);
   });
 
   // Get only completed todos

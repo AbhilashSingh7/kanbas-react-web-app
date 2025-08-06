@@ -56,5 +56,11 @@ export const updateTodoDescription = async (id: number, description: string) => 
   return response.data;
 };
 
+export const updateTodo = async (todo: any) => {
+  const response = await axios.put(`${TODOS_API}/${todo.id}`, todo);
+  return response.data;
+};
+
+
 // ✅ Alias for compatibility
 export const removeTodo = deleteTodo;
