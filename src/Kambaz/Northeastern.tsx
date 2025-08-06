@@ -2,7 +2,7 @@
 import { FaUniversity } from "react-icons/fa";
 
 export default function Northeastern() {
-  const northeasternLogo = "/public/Northeasternlogo.png";
+  const northeasternLogo = "/Northeasternlogo.png";
 
   return (
     <div
