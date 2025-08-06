@@ -16,6 +16,9 @@ import Grades from "./Grades";
 import Account from "./Account";
 import Northeastern from "./Northeastern";
 import People from "./People";
+import Signin from "./Signin";
+import Signup from "./Signup";
+import Profile from "./Profile";
 
 export default function KambazApp() {
   return (
@@ -23,10 +26,16 @@ export default function KambazApp() {
       <NavigationSidebar />
       <div className="flex-grow-1 p-4">
         <Routes>
-          {/* ✅ Redirect /kambaz to /kambaz/account */}
           <Route path="/" element={<Navigate to="northeastern" replace />} />
 
-          <Route path="account/*" element={<Account />} />
+          {/* ✅ Properly nested account routes */}
+          <Route path="account" element={<Account />}>
+            <Route index element={<Signin />} />
+            <Route path="signin" element={<Signin />} />
+            <Route path="signup" element={<Signup />} />
+            <Route path="profile" element={<Profile />} />
+          </Route>
+
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="courses/*" element={<Courses />} />
           <Route path="calendar" element={<Calendar />} />
