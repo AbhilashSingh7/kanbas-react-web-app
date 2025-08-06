@@ -23,7 +23,7 @@ export default function KambazApp() {
       <div className="flex-grow-1 p-4">
         <Routes>
           {/* ✅ Redirect /kambaz to /kambaz/account */}
-          <Route path="/" element={<Navigate to="account" replace />} />
+          <Route path="/" element={<Navigate to="northeastern" replace />} />
 
           <Route path="account/*" element={<Account />} />
           <Route path="dashboard" element={<Dashboard />} />

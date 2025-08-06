@@ -1,63 +1,98 @@
 // src/Kambaz/UserContext.tsx
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useState, ReactNode } from "react";
 
-type User = {
+interface User {
   name: string;
   email: string;
-};
+  username: string;
+  firstName: string;
+  lastName: string;
+  dob: string;
+  role: string;
+  password: string; // Only used internally
+}
 
-type UserContextType = {
+interface UserContextType {
   user: User | null;
   signIn: (email: string, password: string) => boolean;
-  signUp: (name: string, email: string, password: string) => void;
+  signUp: (
+    name: string,
+    email: string,
+    password: string,
+    details: Omit<User, "email" | "name" | "password">
+  ) => void;
   signOut: () => void;
-};
+  updateUser: (updates: Partial<Omit<User, "email" | "password">>) => void;
+}
 
 const UserContext = createContext<UserContextType | undefined>(undefined);
 
-export function useUser() {
-  const context = useContext(UserContext);
-  if (!context) throw new Error("useUser must be used within UserProvider");
-  return context;
-}
+let mockUsers: User[] = [];
 
-export function UserProvider({ children }: { children: React.ReactNode }) {
+export function UserProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
 
-  useEffect(() => {
-    const saved = localStorage.getItem("currentUser");
-    if (saved) setUser(JSON.parse(saved));
-  }, []);
-
-  const signUp = (name: string, email: string, password: string) => {
-    localStorage.setItem(
-      "user:" + email,
-      JSON.stringify({ name, email, password })
+  const signIn = (email: string, password: string): boolean => {
+    const existingUser = mockUsers.find(
+      (u) => u.email === email && u.password === password
     );
-    const newUser = { name, email };
-    localStorage.setItem("currentUser", JSON.stringify(newUser));
+    if (existingUser) {
+      setUser(existingUser);
+      return true;
+    }
+    return false;
+  };
+
+  const signUp = (
+    name: string,
+    email: string,
+    password: string,
+    details: Omit<User, "email" | "name" | "password">
+  ) => {
+    const newUser: User = {
+      name,
+      email,
+      password,
+      username: details.username,
+      firstName: details.firstName,
+      lastName: details.lastName,
+      dob: details.dob,
+      role: details.role,
+    };
+    mockUsers.push(newUser);
     setUser(newUser);
   };
 
-  const signIn = (email: string, password: string) => {
-    const userData = localStorage.getItem("user:" + email);
-    if (!userData) return false;
-    const parsed = JSON.parse(userData);
-    if (parsed.password !== password) return false;
-    const currentUser = { name: parsed.name, email: parsed.email };
-    localStorage.setItem("currentUser", JSON.stringify(currentUser));
-    setUser(currentUser);
-    return true;
-  };
-
   const signOut = () => {
-    localStorage.removeItem("currentUser");
     setUser(null);
   };
 
+  const updateUser = (
+    updates: Partial<Omit<User, "email" | "password">>
+  ) => {
+    if (!user) return;
+    const updatedUser = { ...user, ...updates };
+    setUser(updatedUser);
+    mockUsers = mockUsers.map((u) =>
+      u.email === user.email && u.password === user.password
+        ? updatedUser
+        : u
+    );
+  };
+
   return (
-    <UserContext.Provider value={{ user, signIn, signUp, signOut }}>
+    <UserContext.Provider
+      value={{ user, signIn, signUp, signOut, updateUser }}
+    >
       {children}
     </UserContext.Provider>
   );
+}
+
+export function useUser(): UserContextType {
+  const context = useContext(UserContext);
+  if (!context) {
+    throw new Error("useUser must be used within a UserProvider");
+  }
+  return context;
 }

@@ -1,18 +1,46 @@
 // src/Kambaz/AccountNavigation.tsx
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { useUser } from "./UserContext";
+import "./Account.css";
 
 export default function AccountNavigation() {
+  const { user } = useUser();
+
   return (
-    <div className="list-group mb-3">
-      <Link to="/kambaz/signin" className="list-group-item list-group-item-action">
-        Sign In
-      </Link>
-      <Link to="/kambaz/signup" className="list-group-item list-group-item-action">
-        Sign Up
-      </Link>
-      <Link to="/kambaz/profile" className="list-group-item list-group-item-action">
-        Profile
-      </Link>
-    </div>
+    <nav className="account-nav">
+      <h4>Account</h4>
+      <ul>
+        {!user && (
+          <>
+            <li>
+              <NavLink
+                to="/kambaz/account/signin"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Sign In
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/kambaz/account/signup"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Sign Up
+              </NavLink>
+            </li>
+          </>
+        )}
+        {user && (
+          <li>
+            <NavLink
+              to="/kambaz/account/profile"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              Profile
+            </NavLink>
+          </li>
+        )}
+      </ul>
+    </nav>
   );
 }

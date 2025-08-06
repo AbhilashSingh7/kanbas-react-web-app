@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useUser } from "./UserContext";
+import "./Account.css";
 
 export default function Signin() {
   const [email, setEmail] = useState("");
@@ -15,31 +16,40 @@ export default function Signin() {
     if (success) {
       navigate("/kambaz/account/profile");
     } else {
-      setError("Invalid email or password.");
+      setError("Invalid email or password. Please try again.");
     }
   };
 
   return (
-    <div className="signin-container">
+    <div className="account-content">
       <h2>Sign In</h2>
       {error && <p style={{ color: "red" }}>{error}</p>}
-      <div>
-        <label>Email:</label>
+
+      <div className="form-group">
+        <label htmlFor="email">Email:</label>
         <input
+          id="email"
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter your email"
         />
       </div>
-      <div>
-        <label>Password:</label>
+
+      <div className="form-group">
+        <label htmlFor="password">Password:</label>
         <input
+          id="password"
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          placeholder="Enter your password"
         />
       </div>
-      <button onClick={handleSignIn}>Sign In</button>
+
+      <button onClick={handleSignIn} className="btn-primary">
+        Sign In
+      </button>
     </div>
   );
 }

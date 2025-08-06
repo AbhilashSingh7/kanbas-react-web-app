@@ -1,42 +1,115 @@
 /* src/Kambaz/Account.css */
 
 .account-page {
-    display: flex;
-    background-color: black;
-    color: white;
-    min-height: 100vh;
-  }
-  
-  .account-main {
-    flex: 1;
-    padding: 2rem;
-    margin-left: 300px;
-  }
-  
-  .account-title {
-    font-size: 2.5rem;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    color: white;
-    margin-bottom: 2rem;
-  }
-  
-  .account-icon {
-    font-size: 2.5rem;
-    color: white;
-  }
-  
-  .account-container {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .account-nav {
-    width: 200px;
-  }
-  
-  .account-content {
-    flex: 1;
-    color: white;
-  }
+  display: flex;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.account-main {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 300px;
+}
+
+.account-title {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.account-icon {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.account-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.account-nav {
+  width: 200px;
+}
+
+.account-nav h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.account-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.account-nav li {
+  margin-bottom: 0.75rem;
+}
+
+.account-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.account-nav a:hover {
+  color: #ff4444;
+}
+
+.account-nav a.active {
+  color: red;
+  font-weight: bold;
+}
+
+.account-content {
+  flex: 1;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-secondary {
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
