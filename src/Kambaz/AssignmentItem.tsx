@@ -11,7 +11,7 @@ export interface AssignmentItemProps {
   points: number;
   group: string;
   onDelete: (id: number) => void;
-  onEdit: (id: number) => void; // ✅ Added line
+  onEdit: (id: number) => void;
 }
 
 export default function AssignmentItem({
