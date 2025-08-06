@@ -1,5 +1,6 @@
 // src/Labs/Lab5/index.tsx
 import EnvironmentVariables from "./EnvironmentVariables";
+import PathParameters from "./PathParameters";
 const REMOTE_SERVER = import.meta.env.VITE_REMOTE_SERVER;
 
 export default function Lab5() {
@@ -12,6 +13,7 @@ export default function Lab5() {
         </a>
       </ul>
       <EnvironmentVariables />
+      <PathParameters />
     </div>
   );
 }
