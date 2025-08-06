@@ -1,6 +1,7 @@
 // src/Labs/Lab1/index.tsx
 
 import ReactDOM from "react-dom/client";
+import { useNavigate } from "react-router-dom";
 
 // Headings & Text
 import HeadingTags from "./HeadingTags";
@@ -54,8 +55,16 @@ import AnchorTag from "./AnchorTag";
 
 
 const Lab1 = () => {
+  const navigate = useNavigate();
   return (
     <div style={{ padding: "20px", marginLeft: 220, fontFamily: "Arial, sans-serif" }}>
+      {/* ✅ BACK BUTTON */}
+      <button
+        onClick={() => navigate("/")}
+        className="btn btn-danger mb-4"
+      >
+        ← Back to Home
+      </button>
       <h1>CS5610 - Lab 1 Showcase</h1>
 
       {/* Text Elements */}
