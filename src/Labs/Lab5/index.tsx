@@ -3,6 +3,7 @@ import EnvironmentVariables from "./EnvironmentVariables";
 import PathParameters from "./PathParameters";
 import WorkingWithObjects from "./WorkingWithObjects";
 import Module from "./Module";
+import WorkingWithArrays from "./WorkingWithArrays";
 const REMOTE_SERVER = import.meta.env.VITE_REMOTE_SERVER;
 
 export default function Lab5() {
@@ -18,6 +19,7 @@ export default function Lab5() {
       <PathParameters />
       <WorkingWithObjects />
       <Module />
+      <WorkingWithArrays />
     </div>
   );
 }
